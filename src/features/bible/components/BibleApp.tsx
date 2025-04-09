@@ -13,9 +13,9 @@ const BibleApp = () => {
   const [selectedChapter, setSelectedChapter] = useState<number | null>(null);
   const [selectedVerse, setSelectedVerse] = useState<number | string | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
-  
+
   const { bibleData, loadBookData } = useBibleData();
-  
+
   useEffect(() => {
     if (selectedBook) {
       setLoading(true);
@@ -24,51 +24,50 @@ const BibleApp = () => {
       });
     }
   }, [selectedBook, loadBookData]);
-  
+
   const handleBookChange = (bookId: string) => {
     setSelectedBook(bookId);
     setSelectedChapter(null);
     setSelectedVerse(null);
   };
-  
   const handleChapterChange = (chapter: number) => {
     setSelectedChapter(chapter);
-    setSelectedVerse('all'); // Mostrar todos los versículos al seleccionar un capítulo
+    setSelectedVerse(null); // No mostrar nada al seleccionar un capítulo
   };
-  
+
   const handleVerseChange = (verse: number | string) => {
     setSelectedVerse(verse);
   };
-  
+
   // Obtenemos el libro seleccionado para mostrar su número de capítulos
-  const selectedBookData = selectedBook 
-    ? antiguoTestamento.find(book => book.id === selectedBook) 
+  const selectedBookData = selectedBook
+    ? antiguoTestamento.find(book => book.id === selectedBook)
     : null;
-  
+
   return (
     <div className="w-full">
       <div className="flex flex-col sm:flex-row gap-4 mb-6">
-        <BookSelector 
-          books={antiguoTestamento} 
-          selectedBook={selectedBook} 
+        <BookSelector
+          books={antiguoTestamento}
+          selectedBook={selectedBook}
           onSelectBook={handleBookChange}
         />
-        
-        <ChapterSelector 
+
+        <ChapterSelector
           chapters={selectedBookData?.capitulos || 0}
-          selectedChapter={selectedChapter} 
+          selectedChapter={selectedChapter}
           onSelectChapter={handleChapterChange}
           disabled={!selectedBook}
         />
-        
-        <VerseSelector 
+
+        <VerseSelector
           versesData={selectedBook && selectedChapter ? bibleData[selectedBook]?.[selectedChapter] : null}
           selectedVerse={selectedVerse}
           onSelectVerse={handleVerseChange}
           disabled={!selectedChapter}
         />
       </div>
-      
+
       <ScriptureDisplay
         bookId={selectedBook}
         chapterNum={selectedChapter}

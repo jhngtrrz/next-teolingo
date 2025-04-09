@@ -9,6 +9,8 @@ export interface LibroType {
 export interface PalabraType {
   original: string;
   traduccion: string;
+  idioma?: string; // Indica el idioma de la palabra (opcional)
+  strong?: string; // Código Strong para referencias léxicas (opcional)
 }
 
 export interface VersiculoType {
