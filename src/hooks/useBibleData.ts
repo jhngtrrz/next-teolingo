@@ -1,13 +1,12 @@
 'use client';
 
 import { useState, useCallback } from 'react';
-import { BibleDataType, CapituloDataMap, VersiculoDataMap } from '@/types/bible';
+import { BibleDataType, CapituloDataMap } from '@/types/bible';
 
 export const useBibleData = () => {
   const [bibleData, setBibleData] = useState<BibleDataType>({});
-
   // Función para procesar el XML y convertirlo a nuestro formato de datos
-  const procesarXML = useCallback((xmlDoc: Document, libroId: string): CapituloDataMap => {
+  const procesarXML = useCallback((xmlDoc: Document): CapituloDataMap => {
     const resultado: CapituloDataMap = {};
 
     try {
@@ -69,14 +68,12 @@ export const useBibleData = () => {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
 
-      const data = await response.text();
-
-      // Parsear el XML
+      const data = await response.text();      // Parsear el XML
       const parser = new DOMParser();
       const xmlDoc = parser.parseFromString(data, "text/xml");
 
       // Procesar los datos XML
-      const bookData = procesarXML(xmlDoc, libroId);
+      const bookData = procesarXML(xmlDoc);
 
       // Actualizar el estado con los datos del nuevo libro
       setBibleData(prevData => ({

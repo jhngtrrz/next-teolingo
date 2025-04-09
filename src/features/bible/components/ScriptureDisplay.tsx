@@ -1,6 +1,6 @@
 'use client';
 
-import { LibroType, BibleDataType, VersiculoType } from '@/types/bible';
+import { BibleDataType, VersiculoType } from '@/types/bible';
 import { antiguoTestamento } from '@/lib/api/bibleData';
 
 interface ScriptureDisplayProps {
