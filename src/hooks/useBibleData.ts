@@ -58,7 +58,7 @@ export const useBibleData = () => {
     return resultado;
   }, []);
 
-  // Modificada para extraer también la traducción española del JSON
+  // Modificada para verificar si verseData.words es un array
   const procesarHebreoJSON = useCallback((jsonData: GenesisJsonVerse[]): CapituloDataMap => {
     const resultado: CapituloDataMap = {};
     try {
@@ -73,20 +73,30 @@ export const useBibleData = () => {
           resultado[capNum][verseNum] = { palabras: [] };
         }
 
-        const palabras: PalabraData[] = verseData.words
-          .filter(word => word.hebrew) // Asegurarse de que hay palabra hebrea
-          .map(word => ({
-            original: word.hebrew || '',
-            // Extraer la traducción directamente del campo 'spanish' del JSON
-            traduccion: word.spanish || '[sin trad.]',
-            strong: word.strong, // Strong viene del JSON
-            parsing: word.parsing // Parsing viene del JSON
-          }));
+        // *** Añadir verificación Array.isArray ***
+        if (Array.isArray(verseData.words)) {
+          const palabras: PalabraData[] = verseData.words
+            .filter(word => word.hebrew) // Asegurarse de que hay palabra hebrea
+            .map(word => ({
+              original: word.hebrew || '',
+              traduccion: word.spanish || '[sin trad.]',
+              strong: word.strong,
+              parsing: word.parsing
+            }));
 
-        resultado[capNum][verseNum].palabras.push(...palabras);
+          resultado[capNum][verseNum].palabras.push(...palabras);
+        } else {
+          // Opcional: Registrar una advertencia si words no es un array
+          console.warn(`Datos inválidos para ${capNum}:${verseNum} en JSON: 'words' no es un array.`, verseData);
+          // Asegurarse de que el versículo exista incluso si no tiene palabras válidas
+          if (!resultado[capNum][verseNum]) {
+            resultado[capNum][verseNum] = { palabras: [] };
+          }
+        }
       });
     } catch (error) {
-      console.error("Error procesando JSON Hebreo (Génesis):", error);
+      // Registrar el error específico que ocurrió durante el procesamiento
+      console.error("Error procesando JSON Hebreo:", error);
     }
     return resultado;
   }, []);
@@ -124,11 +134,7 @@ export const useBibleData = () => {
             verseNum = parseInt(parts[2]);
           }
         } else if (verseIdAttr) {
-          // Fallback si no hay bcv: intentar inferir capítulo basado en el último <c> encontrado
-          // Esto es menos fiable. Por ahora, nos centramos en bcv.
           console.warn(`Versículo sin atributo 'bcv', usando 'id': ${verseIdAttr}. La asignación de capítulo puede ser incorrecta.`);
-          // Podríamos intentar encontrar el <c> precedente, pero es propenso a errores.
-          // Por ahora, solo procesaremos versículos con 'bcv' claro.
           return;
         }
 
@@ -173,10 +179,6 @@ export const useBibleData = () => {
                   }
                 });
               }
-              // Optional: Handle plain text nodes if needed
-              // else if (currentNode.nodeType === Node.TEXT_NODE && currentNode.textContent?.trim()) {
-              //    console.log("Plain text node:", currentNode.textContent.trim());
-              // }
             }
             currentNode = currentNode.nextSibling;
           }
@@ -220,17 +222,20 @@ export const useBibleData = () => {
       console.log(`Cargando datos para ${libroId}...`);
       let finalBookData: CapituloDataMap; // Variable para almacenar el resultado final
 
-      // Cargar datos (JSON para Génesis, XML para otros)
-      if (libroId === 'Genesis') {
-        console.log("Cargando datos JSON para Génesis...");
-        const hebrewJsonResponse = await fetch(`/data/bible/genesis.json`);
-        if (!hebrewJsonResponse.ok) throw new Error(`Error cargando Hebreo JSON: ${hebrewJsonResponse.status}`);
-        const hebrewJson = await hebrewJsonResponse.json();
-        // Procesar JSON que ahora incluye hebreo, strong y español
-        finalBookData = procesarHebreoJSON(hebrewJson);
-        console.log("Datos Completos (JSON) procesados para Génesis.");
-
-        // *** NO SE NECESITA CARGAR NI FUSIONAR XML ESPAÑOL PARA GÉNESIS ***
+      // Cargar datos (JSON para Génesis y Éxodo, XML para otros)
+      if (libroId === 'Genesis' || libroId === 'Exodus') {
+        // Determinar el nombre del archivo JSON basado en el libroId
+        const jsonFileName = libroId === 'Genesis' ? 'genesis.json' : 'exodus.json';
+        console.log(`Cargando datos JSON (${jsonFileName}) para ${libroId}...`);
+        // Ajustar la ruta para que coincida con la estructura de carpetas
+        const jsonResponse = await fetch(`/data/bible/${jsonFileName}`);
+        if (!jsonResponse.ok) throw new Error(`Error cargando JSON (${jsonFileName}): ${jsonResponse.status}`);
+        const jsonData = await jsonResponse.json();
+        // Procesar JSON que incluye hebreo, strong y español
+        const processedData = procesarHebreoJSON(jsonData);
+        // Eliminar comprobación y límites para Éxodo, ya que el archivo ya está corregido
+        finalBookData = processedData;
+        console.log(`Datos Completos (JSON) procesados para ${libroId}.`);
 
       } else {
         // Lógica para otros libros (usando XML Hebreo y Español)
@@ -294,7 +299,7 @@ export const useBibleData = () => {
           });
         });
         console.log(`Datos XML fusionados para ${libroId}.`);
-      } // Fin del else (libros != Genesis)
+      } // Fin del else (libros != Genesis/Exodus)
 
       // Actualizar el estado con los datos (ya sea de JSON o XML fusionado)
       setBibleData(prevData => ({
