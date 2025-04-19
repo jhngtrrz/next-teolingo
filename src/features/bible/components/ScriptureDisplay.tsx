@@ -57,6 +57,7 @@ const ScriptureDisplay = ({
               >
                 <div
                   className={`original text-2xl font-hebrew text-primary`}
+                  title={palabra.parsing ? palabra.parsing : undefined} // Añadir title si existe parsing
                 >
                   {palabra.original}
                 </div>

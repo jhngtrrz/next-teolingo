@@ -7,10 +7,17 @@ export interface LibroType {
 }
 
 export interface PalabraType {
+  parsing?: string;
   original: string;
   traduccion: string;
   idioma?: string; // Indica el idioma de la palabra (opcional)
   strong?: string; // Código Strong para referencias léxicas (opcional)
+}
+
+export interface PalabraData {
+  original: string;
+  traduccion: string;
+  strong?: string; // Añadir campo opcional para número Strong
 }
 
 export interface VersiculoType {
