@@ -55,13 +55,13 @@ const ScriptureDisplay = ({
                 className="word-group flex flex-col items-center mb-2 min-w-[100px]"
                 key={i}
               >
+                <div className="text-xs text-muted-foreground mb-1">{palabra.strong}</div>
                 <div
                   className={`original text-2xl font-hebrew text-primary`}
                   title={palabra.parsing ? palabra.parsing : undefined} // Añadir title si existe parsing
                 >
                   {palabra.original}
                 </div>
-                <div className="text-xs text-muted-foreground">{palabra.strong}</div>
                 <div className="translation text-sm text-secondary-foreground">
                   {palabra.traduccion || <em className="text-muted-foreground">[Traducción no disponible]</em>}
                 </div>
