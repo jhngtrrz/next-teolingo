@@ -134860,5 +134860,4775 @@
             }
         ],
         "verse": 38
+    },
+    {
+        "chapter": 39,
+        "words": [
+            {
+                "hebrew": "אֵ֣ת׀ ",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "מִזְבַּ֣ח ",
+                "parsing": "subs.m.sg.c",
+                "strong": "4196",
+                "spanish": "altar de"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "נְּחֹ֗שֶׁת ",
+                "parsing": "subs.f.sg.a",
+                "strong": "5178",
+                "spanish": "bronce"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "מִכְבַּ֤ר ",
+                "parsing": "subs.m.sg.c",
+                "strong": "4345",
+                "spanish": "rejilla de"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "נְּחֹ֨שֶׁת֙ ",
+                "parsing": "subs.f.sg.a",
+                "strong": "5178",
+                "spanish": "bronce"
+            },
+            {
+                "hebrew": "אֲשֶׁר־",
+                "parsing": "conj",
+                "strong": "834",
+                "spanish": "que"
+            },
+            {
+                "hebrew": "לֹ֔ו ",
+                "parsing": "prep.prs.p3.m.sg",
+                "strong": "9003",
+                "spanish": "para él"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "בַּדָּ֖יו ",
+                "parsing": "subs.m.pl.a.prs.p3.m.sg",
+                "strong": "905",
+                "spanish": "sus varas"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "כָּל־",
+                "parsing": "subs.m.sg.c",
+                "strong": "3605",
+                "spanish": "todos"
+            },
+            {
+                "hebrew": "כֵּלָ֑יו ",
+                "parsing": "subs.m.pl.a.prs.p3.m.sg",
+                "strong": "3627",
+                "spanish": "sus utensilios"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "la"
+            },
+            {
+                "hebrew": "כִּיֹּ֖ר ",
+                "parsing": "subs.m.sg.a",
+                "strong": "3595",
+                "spanish": "fuente"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "כַּנֹּֽו׃ ",
+                "parsing": "subs.m.sg.a.prs.p3.m.sg",
+                "strong": "3653",
+                "spanish": "su soporte"
+            }
+        ],
+        "verse": 39
+    },
+    {
+        "chapter": 39,
+        "words": [
+            {
+                "hebrew": "אֵת֩ ",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "קַלְעֵ֨י ",
+                "parsing": "subs.m.pl.c",
+                "strong": "7050",
+                "spanish": "cortinas de"
+            },
+            {
+                "hebrew": "הֶ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "חָצֵ֜ר ",
+                "parsing": "subs.u.sg.a",
+                "strong": "2691",
+                "spanish": "atrio"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "עַמֻּדֶ֣יהָ ",
+                "parsing": "subs.m.pl.a.prs.p3.f.sg",
+                "strong": "5982",
+                "spanish": "sus postes"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "אֲדָנֶ֗יהָ ",
+                "parsing": "subs.m.pl.a.prs.p3.f.sg",
+                "strong": "134",
+                "spanish": "sus bases"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "la"
+            },
+            {
+                "hebrew": "מָּסָךְ֙ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4539",
+                "spanish": "cortina"
+            },
+            {
+                "hebrew": "לְ",
+                "parsing": "prep",
+                "strong": "9003",
+                "spanish": "para"
+            },
+            {
+                "hebrew": "שַׁ֣עַר ",
+                "parsing": "subs.m.sg.c",
+                "strong": "8179",
+                "spanish": "entrada de"
+            },
+            {
+                "hebrew": "הֶֽ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "חָצֵ֔ר ",
+                "parsing": "subs.u.sg.a",
+                "strong": "2691",
+                "spanish": "atrio"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "מֵיתָרָ֖יו ",
+                "parsing": "subs.m.pl.a.prs.p3.m.sg",
+                "strong": "4340",
+                "spanish": "sus cuerdas"
+            },
+            {
+                "hebrew": "וִ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יתֵדֹתֶ֑יהָ ",
+                "parsing": "subs.f.pl.a.prs.p3.f.sg",
+                "strong": "3489",
+                "spanish": "sus estacas"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "אֵ֗ת ",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "כָּל־",
+                "parsing": "subs.m.sg.c",
+                "strong": "3605",
+                "spanish": "todos"
+            },
+            {
+                "hebrew": "כְּלֵ֛י ",
+                "parsing": "subs.m.pl.c",
+                "strong": "3627",
+                "spanish": "utensilios de"
+            },
+            {
+                "hebrew": "עֲבֹדַ֥ת ",
+                "parsing": "subs.f.sg.c",
+                "strong": "5656",
+                "spanish": "servicio de"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "מִּשְׁכָּ֖ן ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4908",
+                "spanish": "tabernáculo"
+            },
+            {
+                "hebrew": "לְ",
+                "parsing": "prep",
+                "strong": "9003",
+                "spanish": "para"
+            },
+            {
+                "hebrew": "אֹ֥הֶל ",
+                "parsing": "subs.m.sg.c",
+                "strong": "168",
+                "spanish": "tabernáculo de"
+            },
+            {
+                "hebrew": "מֹועֵֽד׃ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4150",
+                "spanish": "reunión"
+            }
+        ],
+        "verse": 40
+    },
+    {
+        "chapter": 39,
+        "words": [
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "בִּגְדֵ֥י ",
+                "parsing": "subs.m.pl.c",
+                "strong": "899",
+                "spanish": "vestidos de"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "שְּׂרָ֖ד ",
+                "parsing": "subs.m.sg.a",
+                "strong": "8278",
+                "spanish": "tejido"
+            },
+            {
+                "hebrew": "לְ",
+                "parsing": "prep",
+                "strong": "9003",
+                "spanish": "para"
+            },
+            {
+                "hebrew": "שָׁרֵ֣ת ",
+                "parsing": "verbo.piel.infc.u.u.u.a",
+                "strong": "8334",
+                "spanish": "servir"
+            },
+            {
+                "hebrew": "בַּ",
+                "parsing": "prep",
+                "strong": "9001",
+                "spanish": "en"
+            },
+            {
+                "hebrew": "קֹּ֑דֶשׁ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "6944",
+                "spanish": "santuario"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "בִּגְדֵ֤י ",
+                "parsing": "subs.m.pl.c",
+                "strong": "899",
+                "spanish": "vestidos de"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "קֹּ֨דֶשׁ֙ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "6944",
+                "spanish": "sagrado"
+            },
+            {
+                "hebrew": "לְ",
+                "parsing": "prep",
+                "strong": "9003",
+                "spanish": "para"
+            },
+            {
+                "hebrew": "אַהֲרֹ֣ן ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "175",
+                "spanish": "Aarón"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "כֹּהֵ֔ן ",
+                "parsing": "subs.m.sg.a",
+                "strong": "3548",
+                "spanish": "sacerdote"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "בִּגְדֵ֥י ",
+                "parsing": "subs.m.pl.c",
+                "strong": "899",
+                "spanish": "vestidos de"
+            },
+            {
+                "hebrew": "בָנָ֖יו ",
+                "parsing": "subs.m.pl.a.prs.p3.m.sg",
+                "strong": "1121",
+                "spanish": "sus hijos"
+            },
+            {
+                "hebrew": "לְ",
+                "parsing": "prep",
+                "strong": "9003",
+                "spanish": "para"
+            },
+            {
+                "hebrew": "כַהֵֽן׃ ",
+                "parsing": "verbo.piel.infc.u.u.u.a",
+                "strong": "3547",
+                "spanish": "ser sacerdote"
+            }
+        ],
+        "verse": 41
+    },
+    {
+        "chapter": 39,
+        "words": [
+            {
+                "hebrew": "כְּ",
+                "parsing": "prep",
+                "strong": "9002",
+                "spanish": "como"
+            },
+            {
+                "hebrew": "כֹ֛ל ",
+                "parsing": "subs.m.sg.c",
+                "strong": "3605",
+                "spanish": "todo"
+            },
+            {
+                "hebrew": "אֲשֶׁר־",
+                "parsing": "conj",
+                "strong": "834",
+                "spanish": "lo que"
+            },
+            {
+                "hebrew": "צִוָּ֥ה ",
+                "parsing": "verbo.piel.perf.p3.m.sg",
+                "strong": "6680",
+                "spanish": "mandó"
+            },
+            {
+                "hebrew": "יְהוָ֖ה ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "3068",
+                "spanish": "Yahweh"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "a"
+            },
+            {
+                "hebrew": "מֹשֶׁ֑ה ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "4872",
+                "spanish": "Moisés"
+            },
+            {
+                "hebrew": "כֵּ֤ן ",
+                "parsing": "advb",
+                "strong": "3651",
+                "spanish": "así"
+            },
+            {
+                "hebrew": "עָשׂוּ֙ ",
+                "parsing": "verbo.qal.perf.p3.u.pl",
+                "strong": "6213",
+                "spanish": "hicieron"
+            },
+            {
+                "hebrew": "בְּנֵ֣י ",
+                "parsing": "subs.m.pl.c",
+                "strong": "1121",
+                "spanish": "hijos de"
+            },
+            {
+                "hebrew": "יִשְׂרָאֵ֔ל ",
+                "parsing": "nmpr.u.sg.a",
+                "strong": "3478",
+                "spanish": "Israel"
+            },
+            {
+                "hebrew": "אֵ֖ת ",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "כָּל־",
+                "parsing": "subs.m.sg.c",
+                "strong": "3605",
+                "spanish": "todo"
+            },
+            {
+                "hebrew": "הָ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "עֲבֹדָֽה׃ ",
+                "parsing": "subs.f.sg.a",
+                "strong": "5656",
+                "spanish": "trabajo"
+            }
+        ],
+        "verse": 42
+    },
+    {
+        "chapter": 39,
+        "words": [
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יַּ֨רְא ",
+                "parsing": "verbo.qal.wayq.p3.m.sg",
+                "strong": "7200",
+                "spanish": "miró"
+            },
+            {
+                "hebrew": "מֹשֶׁ֜ה ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "4872",
+                "spanish": "Moisés"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "כָּל־",
+                "parsing": "subs.m.sg.c",
+                "strong": "3605",
+                "spanish": "toda"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "la"
+            },
+            {
+                "hebrew": "מְּלָאכָ֗ה ",
+                "parsing": "subs.f.sg.a",
+                "strong": "4399",
+                "spanish": "obra"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "הִנֵּה֙ ",
+                "parsing": "intj",
+                "strong": "2009",
+                "spanish": "he aquí"
+            },
+            {
+                "hebrew": "עָשׂ֣וּ ",
+                "parsing": "verbo.qal.perf.p3.u.pl",
+                "strong": "6213",
+                "spanish": "hicieron"
+            },
+            {
+                "hebrew": "אֹתָ֔הּ ",
+                "parsing": "prep.prs.p3.f.sg",
+                "strong": "853",
+                "spanish": "ella"
+            },
+            {
+                "hebrew": "כַּ",
+                "parsing": "prep",
+                "strong": "9002",
+                "spanish": "-"
+            },
+            {
+                "hebrew": "אֲשֶׁ֛ר ",
+                "parsing": "conj",
+                "strong": "834",
+                "spanish": "como"
+            },
+            {
+                "hebrew": "צִוָּ֥ה ",
+                "parsing": "verbo.piel.perf.p3.m.sg",
+                "strong": "6680",
+                "spanish": "mandó"
+            },
+            {
+                "hebrew": "יְהוָ֖ה ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "3068",
+                "spanish": "Yahweh"
+            },
+            {
+                "hebrew": "כֵּ֣ן ",
+                "parsing": "advb",
+                "strong": "3651",
+                "spanish": "así"
+            },
+            {
+                "hebrew": "עָשׂ֑וּ ",
+                "parsing": "verbo.qal.perf.p3.u.pl",
+                "strong": "6213",
+                "spanish": "hicieron"
+            },
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יְבָ֥רֶךְ ",
+                "parsing": "verbo.piel.wayq.p3.m.sg",
+                "strong": "1288",
+                "spanish": "bendijo"
+            },
+            {
+                "hebrew": "אֹתָ֖ם ",
+                "parsing": "prep.prs.p3.m.pl",
+                "strong": "853",
+                "spanish": "a ellos"
+            },
+            {
+                "hebrew": "מֹשֶֽׁה׃ פ ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "4872",
+                "spanish": "Moisés"
+            }
+        ],
+        "verse": 43
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יְדַבֵּ֥ר ",
+                "parsing": "verbo.piel.wayq.p3.m.sg",
+                "strong": "1696",
+                "spanish": "habló"
+            },
+            {
+                "hebrew": "יְהוָ֖ה ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "3068",
+                "spanish": "Yahweh"
+            },
+            {
+                "hebrew": "אֶל־",
+                "parsing": "prep",
+                "strong": "413",
+                "spanish": "a"
+            },
+            {
+                "hebrew": "מֹשֶׁ֥ה ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "4872",
+                "spanish": "Moisés"
+            },
+            {
+                "hebrew": "לֵּ",
+                "parsing": "prep",
+                "strong": "9003",
+                "spanish": "-"
+            },
+            {
+                "hebrew": "אמֹֽר׃ ",
+                "parsing": "verbo.qal.infc.u.u.u.a",
+                "strong": "559",
+                "spanish": "diciendo"
+            }
+        ],
+        "verse": 1
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "בְּ",
+                "parsing": "prep",
+                "strong": "9001",
+                "spanish": "en"
+            },
+            {
+                "hebrew": "יֹום־",
+                "parsing": "subs.m.sg.c",
+                "strong": "3117",
+                "spanish": "día de"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "חֹ֥דֶשׁ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "2320",
+                "spanish": "mes"
+            },
+            {
+                "hebrew": "הָ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "רִאשֹׁ֖ון ",
+                "parsing": "adjv.m.sg.a",
+                "strong": "7223",
+                "spanish": "primero"
+            },
+            {
+                "hebrew": "בְּ",
+                "parsing": "prep",
+                "strong": "9001",
+                "spanish": "en"
+            },
+            {
+                "hebrew": "אֶחָ֣ד ",
+                "parsing": "subs.u.sg.a",
+                "strong": "259",
+                "spanish": "uno"
+            },
+            {
+                "hebrew": "לַ",
+                "parsing": "prep",
+                "strong": "9003",
+                "spanish": "de"
+            },
+            {
+                "hebrew": "חֹ֑דֶשׁ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "2320",
+                "spanish": "mes"
+            },
+            {
+                "hebrew": "תָּקִ֕ים ",
+                "parsing": "verbo.hif.impf.p2.m.sg",
+                "strong": "6965",
+                "spanish": "levantáis"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "מִשְׁכַּ֖ן ",
+                "parsing": "subs.m.sg.c",
+                "strong": "4908",
+                "spanish": "tabernáculo"
+            },
+            {
+                "hebrew": "אֹ֥הֶל ",
+                "parsing": "subs.m.sg.c",
+                "strong": "168",
+                "spanish": "tabernáculo de"
+            },
+            {
+                "hebrew": "מֹועֵֽד׃ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4150",
+                "spanish": "reunión"
+            }
+        ],
+        "verse": 2
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "שַׂמְתָּ֣ ",
+                "parsing": "verbo.qal.perf.p2.m.sg",
+                "strong": "7760",
+                "spanish": "pondrás"
+            },
+            {
+                "hebrew": "שָׁ֔ם ",
+                "parsing": "advb",
+                "strong": "8033",
+                "spanish": "allí"
+            },
+            {
+                "hebrew": "אֵ֖ת ",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "אֲרֹ֣ון ",
+                "parsing": "subs.u.sg.c",
+                "strong": "727",
+                "spanish": "arca de"
+            },
+            {
+                "hebrew": "הָ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "עֵד֑וּת ",
+                "parsing": "subs.f.sg.a",
+                "strong": "5715",
+                "spanish": "testimonio"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "סַכֹּתָ֥ ",
+                "parsing": "verbo.qal.perf.p2.m.sg",
+                "strong": "5526",
+                "spanish": "cubrirás"
+            },
+            {
+                "hebrew": "עַל־",
+                "parsing": "prep",
+                "strong": "5921",
+                "spanish": "sobre"
+            },
+            {
+                "hebrew": "הָ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "אָרֹ֖ן ",
+                "parsing": "subs.u.sg.a",
+                "strong": "727",
+                "spanish": "arca"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "con"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "la"
+            },
+            {
+                "hebrew": "פָּרֹֽכֶת׃ ",
+                "parsing": "subs.f.sg.a",
+                "strong": "6532",
+                "spanish": "cortina"
+            }
+        ],
+        "verse": 3
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "הֵבֵאתָ֙ ",
+                "parsing": "verbo.hif.perf.p2.m.sg",
+                "strong": "935",
+                "spanish": "meterás"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "la"
+            },
+            {
+                "hebrew": "שֻּׁלְחָ֔ן ",
+                "parsing": "subs.m.sg.a",
+                "strong": "7979",
+                "spanish": "mesa"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "עָרַכְתָּ֖ ",
+                "parsing": "verbo.qal.perf.p2.m.sg",
+                "strong": "6186",
+                "spanish": "arreglarás"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "עֶרְכֹּ֑ו ",
+                "parsing": "subs.m.sg.a.prs.p3.m.sg",
+                "strong": "6187",
+                "spanish": "su material"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "הֵבֵאתָ֙ ",
+                "parsing": "verbo.hif.perf.p2.m.sg",
+                "strong": "935",
+                "spanish": "meterás"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "מְּנֹרָ֔ה ",
+                "parsing": "subs.f.sg.a",
+                "strong": "4501",
+                "spanish": "candelero"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "הַעֲלֵיתָ֖ ",
+                "parsing": "verbo.hif.perf.p2.m.sg",
+                "strong": "5927",
+                "spanish": "prepararás"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "נֵרֹתֶֽיהָ׃ ",
+                "parsing": "subs.m.pl.a.prs.p3.f.sg",
+                "strong": "5216",
+                "spanish": "sus lámparas"
+            }
+        ],
+        "verse": 4
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "נָתַתָּ֞ה ",
+                "parsing": "verbo.qal.perf.p2.m.sg",
+                "strong": "5414",
+                "spanish": "pondrás"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "מִזְבַּ֤ח ",
+                "parsing": "subs.m.sg.c",
+                "strong": "4196",
+                "spanish": "altar de"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "זָּהָב֙ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "2091",
+                "spanish": "oro"
+            },
+            {
+                "hebrew": "לִ",
+                "parsing": "prep",
+                "strong": "9003",
+                "spanish": "de"
+            },
+            {
+                "hebrew": "קְטֹ֔רֶת ",
+                "parsing": "subs.f.sg.a",
+                "strong": "7004",
+                "spanish": "incienso"
+            },
+            {
+                "hebrew": "לִ",
+                "parsing": "prep",
+                "strong": "9003",
+                "spanish": "-"
+            },
+            {
+                "hebrew": "פְנֵ֖י ",
+                "parsing": "subs.m.pl.c",
+                "strong": "6440",
+                "spanish": "frente a"
+            },
+            {
+                "hebrew": "אֲרֹ֣ון ",
+                "parsing": "subs.u.sg.c",
+                "strong": "727",
+                "spanish": "arca de"
+            },
+            {
+                "hebrew": "הָ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "עֵדֻ֑ת ",
+                "parsing": "subs.f.sg.a",
+                "strong": "5715",
+                "spanish": "testimonio"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "שַׂמְתָּ֛ ",
+                "parsing": "verbo.qal.perf.p2.m.sg",
+                "strong": "7760",
+                "spanish": "pondrás"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "מָסַ֥ךְ ",
+                "parsing": "subs.m.sg.c",
+                "strong": "4539",
+                "spanish": "cortina de"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "la"
+            },
+            {
+                "hebrew": "פֶּ֖תַח ",
+                "parsing": "subs.m.sg.a",
+                "strong": "6607",
+                "spanish": "puerta"
+            },
+            {
+                "hebrew": "לַ",
+                "parsing": "prep",
+                "strong": "9003",
+                "spanish": "para"
+            },
+            {
+                "hebrew": "מִּשְׁכָּֽן׃ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4908",
+                "spanish": "tabernáculo"
+            }
+        ],
+        "verse": 5
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "נָ֣תַתָּ֔ה ",
+                "parsing": "verbo.qal.perf.p2.m.sg",
+                "strong": "5414",
+                "spanish": "pondrás"
+            },
+            {
+                "hebrew": "אֵ֖ת ",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "מִזְבַּ֣ח ",
+                "parsing": "subs.m.sg.c",
+                "strong": "4196",
+                "spanish": "altar de"
+            },
+            {
+                "hebrew": "הָ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "עֹלָ֑ה ",
+                "parsing": "subs.f.sg.a",
+                "strong": "5930",
+                "spanish": "holocausto"
+            },
+            {
+                "hebrew": "לִ",
+                "parsing": "prep",
+                "strong": "9003",
+                "spanish": "-"
+            },
+            {
+                "hebrew": "פְנֵ֕י ",
+                "parsing": "subs.m.pl.c",
+                "strong": "6440",
+                "spanish": "frente a"
+            },
+            {
+                "hebrew": "פֶּ֖תַח ",
+                "parsing": "subs.m.sg.c",
+                "strong": "6607",
+                "spanish": "puerta de"
+            },
+            {
+                "hebrew": "מִשְׁכַּ֥ן ",
+                "parsing": "subs.m.sg.c",
+                "strong": "4908",
+                "spanish": "tabernáculo"
+            },
+            {
+                "hebrew": "אֹֽהֶל־",
+                "parsing": "subs.m.sg.c",
+                "strong": "168",
+                "spanish": "tabernáculo de"
+            },
+            {
+                "hebrew": "מֹועֵֽד׃ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4150",
+                "spanish": "reunión"
+            }
+        ],
+        "verse": 6
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "נָֽתַתָּ֙ ",
+                "parsing": "verbo.qal.perf.p2.m.sg",
+                "strong": "5414",
+                "spanish": "pondrás"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "la"
+            },
+            {
+                "hebrew": "כִּיֹּ֔ר ",
+                "parsing": "subs.m.sg.a",
+                "strong": "3595",
+                "spanish": "fuente"
+            },
+            {
+                "hebrew": "בֵּֽין־",
+                "parsing": "prep.m.sg.c",
+                "strong": "996",
+                "spanish": "entre"
+            },
+            {
+                "hebrew": "אֹ֥הֶל ",
+                "parsing": "subs.m.sg.c",
+                "strong": "168",
+                "spanish": "tabernáculo de"
+            },
+            {
+                "hebrew": "מֹועֵ֖ד ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4150",
+                "spanish": "reunión"
+            },
+            {
+                "hebrew": "וּ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "בֵ֣ין ",
+                "parsing": "prep.m.sg.c",
+                "strong": "996",
+                "spanish": "entre"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "מִּזְבֵּ֑חַ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4196",
+                "spanish": "altar"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "נָתַתָּ֥ ",
+                "parsing": "verbo.qal.perf.p2.m.sg",
+                "strong": "5414",
+                "spanish": "pondrás"
+            },
+            {
+                "hebrew": "שָׁ֖ם ",
+                "parsing": "advb",
+                "strong": "8033",
+                "spanish": "allí"
+            },
+            {
+                "hebrew": "מָֽיִם׃ ",
+                "parsing": "subs.m.pl.a",
+                "strong": "4325",
+                "spanish": "agua"
+            }
+        ],
+        "verse": 7
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "שַׂמְתָּ֥ ",
+                "parsing": "verbo.qal.perf.p2.m.sg",
+                "strong": "7760",
+                "spanish": "pondrás"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "הֶ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "חָצֵ֖ר ",
+                "parsing": "subs.u.sg.a",
+                "strong": "2691",
+                "spanish": "atrio"
+            },
+            {
+                "hebrew": "סָבִ֑יב ",
+                "parsing": "advb.u.sg.a",
+                "strong": "5439",
+                "spanish": "alrededor"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "נָ֣תַתָּ֔ ",
+                "parsing": "verbo.qal.perf.p2.m.sg",
+                "strong": "5414",
+                "spanish": "pondrás"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "מָסַ֖ךְ ",
+                "parsing": "subs.m.sg.c",
+                "strong": "4539",
+                "spanish": "cortina de"
+            },
+            {
+                "hebrew": "שַׁ֥עַר ",
+                "parsing": "subs.m.sg.c",
+                "strong": "8179",
+                "spanish": "entrada de"
+            },
+            {
+                "hebrew": "הֶ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "חָצֵֽר׃ ",
+                "parsing": "subs.u.sg.a",
+                "strong": "2691",
+                "spanish": "atrio"
+            }
+        ],
+        "verse": 8
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "לָקַחְתָּ֙ ",
+                "parsing": "verbo.qal.perf.p2.m.sg",
+                "strong": "3947",
+                "spanish": "tomarás"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "שֶׁ֣מֶן ",
+                "parsing": "subs.m.sg.c",
+                "strong": "8081",
+                "spanish": "aceite de"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "la"
+            },
+            {
+                "hebrew": "מִּשְׁחָ֔ה ",
+                "parsing": "subs.f.sg.a",
+                "strong": "4888",
+                "spanish": "unción"
+            },
+            {
+                "hebrew": "וּ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "מָשַׁחְתָּ֥ ",
+                "parsing": "verbo.qal.perf.p2.m.sg",
+                "strong": "4886",
+                "spanish": "ungirás"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "מִּשְׁכָּ֖ן ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4908",
+                "spanish": "tabernáculo"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "כָּל־",
+                "parsing": "subs.m.sg.a",
+                "strong": "3605",
+                "spanish": "todo"
+            },
+            {
+                "hebrew": "אֲשֶׁר־",
+                "parsing": "conj",
+                "strong": "834",
+                "spanish": "lo que"
+            },
+            {
+                "hebrew": "בֹּ֑ו ",
+                "parsing": "prep.prs.p3.m.sg",
+                "strong": "9001",
+                "spanish": "en él"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "קִדַּשְׁתָּ֥ ",
+                "parsing": "verbo.piel.perf.p2.m.sg",
+                "strong": "6942",
+                "spanish": "consagrarás"
+            },
+            {
+                "hebrew": "אֹתֹ֛ו ",
+                "parsing": "prep.prs.p3.m.sg",
+                "strong": "853",
+                "spanish": "a él"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "כָּל־",
+                "parsing": "subs.m.sg.c",
+                "strong": "3605",
+                "spanish": "todos"
+            },
+            {
+                "hebrew": "כֵּלָ֖יו ",
+                "parsing": "subs.m.pl.a.prs.p3.m.sg",
+                "strong": "3627",
+                "spanish": "sus utensilios"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "הָ֥יָה ",
+                "parsing": "verbo.qal.perf.p3.m.sg",
+                "strong": "1961",
+                "spanish": "será"
+            },
+            {
+                "hebrew": "קֹֽדֶשׁ׃ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "6944",
+                "spanish": "santo"
+            }
+        ],
+        "verse": 9
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וּ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "מָשַׁחְתָּ֛ ",
+                "parsing": "verbo.qal.perf.p2.m.sg",
+                "strong": "4886",
+                "spanish": "ungirás"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "מִזְבַּ֥ח ",
+                "parsing": "subs.m.sg.c",
+                "strong": "4196",
+                "spanish": "altar de"
+            },
+            {
+                "hebrew": "הָ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "עֹלָ֖ה ",
+                "parsing": "subs.f.sg.a",
+                "strong": "5930",
+                "spanish": "holocausto"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "כָּל־",
+                "parsing": "subs.m.sg.c",
+                "strong": "3605",
+                "spanish": "todos"
+            },
+            {
+                "hebrew": "כֵּלָ֑יו ",
+                "parsing": "subs.m.pl.a.prs.p3.m.sg",
+                "strong": "3627",
+                "spanish": "sus utensilios"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "קִדַּשְׁתָּ֙ ",
+                "parsing": "verbo.piel.perf.p2.m.sg",
+                "strong": "6942",
+                "spanish": "consagrarás"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "מִּזְבֵּ֔חַ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4196",
+                "spanish": "altar"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "הָיָ֥ה ",
+                "parsing": "verbo.qal.perf.p3.m.sg",
+                "strong": "1961",
+                "spanish": "será"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "מִּזְבֵּ֖חַ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4196",
+                "spanish": "altar"
+            },
+            {
+                "hebrew": "קֹ֥דֶשׁ ",
+                "parsing": "subs.m.sg.c",
+                "strong": "6944",
+                "spanish": "santo de"
+            },
+            {
+                "hebrew": "קָֽדָשִֽׁים׃ ",
+                "parsing": "subs.m.pl.a",
+                "strong": "6944",
+                "spanish": "santos"
+            }
+        ],
+        "verse": 10
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וּ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "מָשַׁחְתָּ֥ ",
+                "parsing": "verbo.qal.perf.p2.m.sg",
+                "strong": "4886",
+                "spanish": "ungirás"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "la"
+            },
+            {
+                "hebrew": "כִּיֹּ֖ר ",
+                "parsing": "subs.m.sg.a",
+                "strong": "3595",
+                "spanish": "fuente"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "כַּנֹּ֑ו ",
+                "parsing": "subs.m.sg.a.prs.p3.m.sg",
+                "strong": "3653",
+                "spanish": "su soporte"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "קִדַּשְׁתָּ֖ ",
+                "parsing": "verbo.piel.perf.p2.m.sg",
+                "strong": "6942",
+                "spanish": "consagrarás"
+            },
+            {
+                "hebrew": "אֹתֹֽו׃ ",
+                "parsing": "prep.prs.p3.m.sg",
+                "strong": "853",
+                "spanish": "a él"
+            }
+        ],
+        "verse": 11
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "הִקְרַבְתָּ֤ ",
+                "parsing": "verbo.hif.perf.p2.m.sg",
+                "strong": "7126",
+                "spanish": "acercarás"
+            },
+            {
+                "hebrew": "אֶֽת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "a"
+            },
+            {
+                "hebrew": "אַהֲרֹן֙ ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "175",
+                "spanish": "Aarón"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "a"
+            },
+            {
+                "hebrew": "בָּנָ֔יו ",
+                "parsing": "subs.m.pl.a.prs.p3.m.sg",
+                "strong": "1121",
+                "spanish": "sus  hijos"
+            },
+            {
+                "hebrew": "אֶל־",
+                "parsing": "prep",
+                "strong": "413",
+                "spanish": "a"
+            },
+            {
+                "hebrew": "פֶּ֖תַח ",
+                "parsing": "subs.m.sg.c",
+                "strong": "6607",
+                "spanish": "puerta de"
+            },
+            {
+                "hebrew": "אֹ֣הֶל ",
+                "parsing": "subs.m.sg.c",
+                "strong": "168",
+                "spanish": "tabernáculo de"
+            },
+            {
+                "hebrew": "מֹועֵ֑ד ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4150",
+                "spanish": "reunión"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "רָחַצְתָּ֥ ",
+                "parsing": "verbo.qal.perf.p2.m.sg",
+                "strong": "7364",
+                "spanish": "lavarás"
+            },
+            {
+                "hebrew": "אֹתָ֖ם ",
+                "parsing": "prep.prs.p3.m.pl",
+                "strong": "853",
+                "spanish": "a ellos"
+            },
+            {
+                "hebrew": "בַּ",
+                "parsing": "prep",
+                "strong": "9001",
+                "spanish": "con"
+            },
+            {
+                "hebrew": "מָּֽיִם׃ ",
+                "parsing": "subs.m.pl.a",
+                "strong": "4325",
+                "spanish": "agua"
+            }
+        ],
+        "verse": 12
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "הִלְבַּשְׁתָּ֙ ",
+                "parsing": "verbo.hif.perf.p2.m.sg",
+                "strong": "3847",
+                "spanish": "vestirás"
+            },
+            {
+                "hebrew": "אֶֽת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "a"
+            },
+            {
+                "hebrew": "אַהֲרֹ֔ן ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "175",
+                "spanish": "Aarón"
+            },
+            {
+                "hebrew": "אֵ֖ת ",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "בִּגְדֵ֣י ",
+                "parsing": "subs.m.pl.c",
+                "strong": "899",
+                "spanish": "vestidos de"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "קֹּ֑דֶשׁ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "6944",
+                "spanish": "sagrado"
+            },
+            {
+                "hebrew": "וּ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "מָשַׁחְתָּ֥ ",
+                "parsing": "verbo.qal.perf.p2.m.sg",
+                "strong": "4886",
+                "spanish": "ungirás"
+            },
+            {
+                "hebrew": "אֹתֹ֛ו ",
+                "parsing": "prep.prs.p3.m.sg",
+                "strong": "853",
+                "spanish": "a él"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "קִדַּשְׁתָּ֥ ",
+                "parsing": "verbo.piel.perf.p2.m.sg",
+                "strong": "6942",
+                "spanish": "consagrarás"
+            },
+            {
+                "hebrew": "אֹתֹ֖ו ",
+                "parsing": "prep.prs.p3.m.sg",
+                "strong": "853",
+                "spanish": "a él"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "כִהֵ֥ן ",
+                "parsing": "verbo.piel.perf.p3.m.sg",
+                "strong": "3547",
+                "spanish": "será sacerdote"
+            },
+            {
+                "hebrew": "לִֽי׃ ",
+                "parsing": "prep.prs.p1.u.sg",
+                "strong": "9003",
+                "spanish": "para mí"
+            }
+        ],
+        "verse": 13
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "בָּנָ֖יו ",
+                "parsing": "subs.m.pl.a.prs.p3.m.sg",
+                "strong": "1121",
+                "spanish": "sus hijos"
+            },
+            {
+                "hebrew": "תַּקְרִ֑יב ",
+                "parsing": "verbo.hif.impf.p2.m.sg",
+                "strong": "7126",
+                "spanish": "traerás"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "הִלְבַּשְׁתָּ֥ ",
+                "parsing": "verbo.hif.perf.p2.m.sg",
+                "strong": "3847",
+                "spanish": "vestirás"
+            },
+            {
+                "hebrew": "אֹתָ֖ם ",
+                "parsing": "prep.prs.p3.m.pl",
+                "strong": "853",
+                "spanish": "a ellos"
+            },
+            {
+                "hebrew": "כֻּתֳּנֹֽת׃ ",
+                "parsing": "subs.f.pl.a",
+                "strong": "3801",
+                "spanish": "túnicas"
+            }
+        ],
+        "verse": 14
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וּ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "מָשַׁחְתָּ֣ ",
+                "parsing": "verbo.qal.perf.p2.m.sg",
+                "strong": "4886",
+                "spanish": "ungirás"
+            },
+            {
+                "hebrew": "אֹתָ֗ם ",
+                "parsing": "prep.prs.p3.m.pl",
+                "strong": "853",
+                "spanish": "a ellos"
+            },
+            {
+                "hebrew": "כַּ",
+                "parsing": "prep",
+                "strong": "9002",
+                "spanish": "-"
+            },
+            {
+                "hebrew": "אֲשֶׁ֤ר ",
+                "parsing": "conj",
+                "strong": "834",
+                "spanish": "como"
+            },
+            {
+                "hebrew": "מָשַׁ֨חְתָּ֙ ",
+                "parsing": "verbo.qal.perf.p2.m.sg",
+                "strong": "4886",
+                "spanish": "ungiste"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "אֲבִיהֶ֔ם ",
+                "parsing": "subs.m.sg.a.prs.p3.m.pl",
+                "strong": "1",
+                "spanish": "padre de ellos"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "כִהֲנ֖וּ ",
+                "parsing": "verbo.piel.perf.p3.u.pl",
+                "strong": "3547",
+                "spanish": "serán sacerdotes"
+            },
+            {
+                "hebrew": "לִ֑י ",
+                "parsing": "prep.prs.p1.u.sg",
+                "strong": "9003",
+                "spanish": "para mí"
+            },
+            {
+                "hebrew": "וְ֠",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "הָיְתָה ",
+                "parsing": "verbo.qal.perf.p3.f.sg",
+                "strong": "1961",
+                "spanish": "será"
+            },
+            {
+                "hebrew": "לִ",
+                "parsing": "prep",
+                "strong": "9003",
+                "spanish": "a"
+            },
+            {
+                "hebrew": "הְיֹ֨ת ",
+                "parsing": "verbo.qal.infc.u.u.u.a",
+                "strong": "1961",
+                "spanish": "ser"
+            },
+            {
+                "hebrew": "לָהֶ֧ם ",
+                "parsing": "prep.prs.p3.m.pl",
+                "strong": "9003",
+                "spanish": "para ellos"
+            },
+            {
+                "hebrew": "מָשְׁחָתָ֛ם ",
+                "parsing": "subs.f.sg.a.prs.p3.m.pl",
+                "strong": "4888",
+                "spanish": "su ungir"
+            },
+            {
+                "hebrew": "לִ",
+                "parsing": "prep",
+                "strong": "9003",
+                "spanish": "para"
+            },
+            {
+                "hebrew": "כְהֻנַּ֥ת ",
+                "parsing": "subs.f.sg.c",
+                "strong": "3550",
+                "spanish": "sacerdocio"
+            },
+            {
+                "hebrew": "עֹולָ֖ם ",
+                "parsing": "subs.m.sg.a",
+                "strong": "5769",
+                "spanish": "perpetuo"
+            },
+            {
+                "hebrew": "לְ",
+                "parsing": "prep",
+                "strong": "9003",
+                "spanish": "para"
+            },
+            {
+                "hebrew": "דֹרֹתָֽם׃ ",
+                "parsing": "subs.m.pl.a.prs.p3.m.pl",
+                "strong": "1755",
+                "spanish": "sus generaciones"
+            }
+        ],
+        "verse": 15
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "E"
+            },
+            {
+                "hebrew": "יַּ֖עַשׂ ",
+                "parsing": "verbo.qal.wayq.p3.m.sg",
+                "strong": "6213",
+                "spanish": "hizo"
+            },
+            {
+                "hebrew": "מֹשֶׁ֑ה ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "4872",
+                "spanish": "Moisés"
+            },
+            {
+                "hebrew": "כְּ֠",
+                "parsing": "prep",
+                "strong": "9002",
+                "spanish": "como"
+            },
+            {
+                "hebrew": "כֹל ",
+                "parsing": "subs.m.sg.c",
+                "strong": "3605",
+                "spanish": "todo"
+            },
+            {
+                "hebrew": "אֲשֶׁ֨ר ",
+                "parsing": "conj",
+                "strong": "834",
+                "spanish": "lo que"
+            },
+            {
+                "hebrew": "צִוָּ֧ה ",
+                "parsing": "verbo.piel.perf.p3.m.sg",
+                "strong": "6680",
+                "spanish": "mandó"
+            },
+            {
+                "hebrew": "יְהוָ֛ה ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "3068",
+                "spanish": "Yahweh"
+            },
+            {
+                "hebrew": "אֹתֹ֖ו ",
+                "parsing": "prep.prs.p3.m.sg",
+                "strong": "853",
+                "spanish": "a él"
+            },
+            {
+                "hebrew": "כֵּ֥ן ",
+                "parsing": "advb",
+                "strong": "3651",
+                "spanish": "así"
+            },
+            {
+                "hebrew": "עָשָֽׂה׃ ס ",
+                "parsing": "verbo.qal.perf.p3.m.sg",
+                "strong": "6213",
+                "spanish": "hizo"
+            }
+        ],
+        "verse": 16
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יְהִ֞י ",
+                "parsing": "verbo.qal.wayq.p3.m.sg",
+                "strong": "1961",
+                "spanish": "fue"
+            },
+            {
+                "hebrew": "בַּ",
+                "parsing": "prep",
+                "strong": "9001",
+                "spanish": "en"
+            },
+            {
+                "hebrew": "חֹ֧דֶשׁ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "2320",
+                "spanish": "mes"
+            },
+            {
+                "hebrew": "הָ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "רִאשֹׁ֛ון ",
+                "parsing": "adjv.m.sg.a",
+                "strong": "7223",
+                "spanish": "primero"
+            },
+            {
+                "hebrew": "בַּ",
+                "parsing": "prep",
+                "strong": "9001",
+                "spanish": "en"
+            },
+            {
+                "hebrew": "שָּׁנָ֥ה ",
+                "parsing": "subs.f.sg.a",
+                "strong": "8141",
+                "spanish": "año"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "שֵּׁנִ֖ית ",
+                "parsing": "adjv.f.sg.a",
+                "strong": "8145",
+                "spanish": "segundo"
+            },
+            {
+                "hebrew": "בְּ",
+                "parsing": "prep",
+                "strong": "9001",
+                "spanish": "en"
+            },
+            {
+                "hebrew": "אֶחָ֣ד ",
+                "parsing": "subs.u.sg.a",
+                "strong": "259",
+                "spanish": "uno"
+            },
+            {
+                "hebrew": "לַ",
+                "parsing": "prep",
+                "strong": "9003",
+                "spanish": "de"
+            },
+            {
+                "hebrew": "חֹ֑דֶשׁ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "2320",
+                "spanish": "mes"
+            },
+            {
+                "hebrew": "הוּקַ֖ם ",
+                "parsing": "verbo.hof.perf.p3.m.sg",
+                "strong": "6965",
+                "spanish": "fue levantado"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "מִּשְׁכָּֽן׃ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4908",
+                "spanish": "tabernáculo"
+            }
+        ],
+        "verse": 17
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יָּ֨קֶם ",
+                "parsing": "verbo.hif.wayq.p3.m.sg",
+                "strong": "6965",
+                "spanish": "levantó"
+            },
+            {
+                "hebrew": "מֹשֶׁ֜ה ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "4872",
+                "spanish": "Moisés"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "מִּשְׁכָּ֗ן ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4908",
+                "spanish": "tabernáculo"
+            },
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יִּתֵּן֙ ",
+                "parsing": "verbo.qal.wayq.p3.m.sg",
+                "strong": "5414",
+                "spanish": "puso"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "אֲדָנָ֔יו ",
+                "parsing": "subs.m.pl.a.prs.p3.m.sg",
+                "strong": "134",
+                "spanish": "sus bases"
+            },
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יָּ֨שֶׂם֙ ",
+                "parsing": "verbo.qal.wayq.p3.m.sg",
+                "strong": "7760",
+                "spanish": "colocó"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "קְרָשָׁ֔יו ",
+                "parsing": "subs.m.pl.a.prs.p3.m.sg",
+                "strong": "7175",
+                "spanish": "sus tablas"
+            },
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יִּתֵּ֖ן ",
+                "parsing": "verbo.qal.wayq.p3.m.sg",
+                "strong": "5414",
+                "spanish": "puso"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "בְּרִיחָ֑יו ",
+                "parsing": "subs.m.pl.a.prs.p3.m.sg",
+                "strong": "1280",
+                "spanish": "sus barras"
+            },
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יָּ֖קֶם ",
+                "parsing": "verbo.hif.wayq.p3.m.sg",
+                "strong": "6965",
+                "spanish": "levantó"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "עַמּוּדָֽיו׃ ",
+                "parsing": "subs.m.pl.a.prs.p3.m.sg",
+                "strong": "5982",
+                "spanish": "sus postes"
+            }
+        ],
+        "verse": 18
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יִּפְרֹ֤שׂ ",
+                "parsing": "verbo.qal.wayq.p3.m.sg",
+                "strong": "6566",
+                "spanish": "extendió"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "הָ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "la"
+            },
+            {
+                "hebrew": "אֹ֨הֶל֙ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "168",
+                "spanish": "tienda"
+            },
+            {
+                "hebrew": "עַל־",
+                "parsing": "prep",
+                "strong": "5921",
+                "spanish": "sobre"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "מִּשְׁכָּ֔ן ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4908",
+                "spanish": "tabernáculo"
+            },
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יָּ֜שֶׂם ",
+                "parsing": "verbo.qal.wayq.p3.m.sg",
+                "strong": "7760",
+                "spanish": "puso"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "מִכְסֵ֥ה ",
+                "parsing": "subs.m.sg.c",
+                "strong": "4372",
+                "spanish": "cubierta de"
+            },
+            {
+                "hebrew": "הָ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "la"
+            },
+            {
+                "hebrew": "אֹ֛הֶל ",
+                "parsing": "subs.m.sg.a",
+                "strong": "168",
+                "spanish": "tienda"
+            },
+            {
+                "hebrew": "עָלָ֖יו ",
+                "parsing": "prep.prs.p3.m.sg",
+                "strong": "5921",
+                "spanish": "sobre él"
+            },
+            {
+                "hebrew": "מִ",
+                "parsing": "prep",
+                "strong": "4480",
+                "spanish": "de"
+            },
+            {
+                "hebrew": "לְ",
+                "parsing": "prep",
+                "strong": "9003",
+                "spanish": "-"
+            },
+            {
+                "hebrew": "מָ֑עְלָה ",
+                "parsing": "subs.u.sg.a",
+                "strong": "4605",
+                "spanish": "encima"
+            },
+            {
+                "hebrew": "כַּ",
+                "parsing": "prep",
+                "strong": "9002",
+                "spanish": "-"
+            },
+            {
+                "hebrew": "אֲשֶׁ֛ר ",
+                "parsing": "conj",
+                "strong": "834",
+                "spanish": "como"
+            },
+            {
+                "hebrew": "צִוָּ֥ה ",
+                "parsing": "verbo.piel.perf.p3.m.sg",
+                "strong": "6680",
+                "spanish": "mandó"
+            },
+            {
+                "hebrew": "יְהוָ֖ה ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "3068",
+                "spanish": "Yahweh"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "a"
+            },
+            {
+                "hebrew": "מֹשֶֽׁה׃ ס ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "4872",
+                "spanish": "Moisés"
+            }
+        ],
+        "verse": 19
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יִּקַּ֞ח ",
+                "parsing": "verbo.qal.wayq.p3.m.sg",
+                "strong": "3947",
+                "spanish": "tomó"
+            },
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יִּתֵּ֤ן ",
+                "parsing": "verbo.qal.wayq.p3.m.sg",
+                "strong": "5414",
+                "spanish": "puso"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "הָ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "עֵדֻת֙ ",
+                "parsing": "subs.f.sg.a",
+                "strong": "5715",
+                "spanish": "testimonio"
+            },
+            {
+                "hebrew": "אֶל־",
+                "parsing": "prep",
+                "strong": "413",
+                "spanish": "en"
+            },
+            {
+                "hebrew": "הָ֣",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "אָרֹ֔ן ",
+                "parsing": "subs.u.sg.a",
+                "strong": "727",
+                "spanish": "arca"
+            },
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יָּ֥שֶׂם ",
+                "parsing": "verbo.qal.wayq.p3.m.sg",
+                "strong": "7760",
+                "spanish": "puso"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "las"
+            },
+            {
+                "hebrew": "בַּדִּ֖ים ",
+                "parsing": "subs.m.pl.a",
+                "strong": "905",
+                "spanish": "varas"
+            },
+            {
+                "hebrew": "עַל־",
+                "parsing": "prep",
+                "strong": "5921",
+                "spanish": "en"
+            },
+            {
+                "hebrew": "הָ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "אָרֹ֑ן ",
+                "parsing": "subs.u.sg.a",
+                "strong": "727",
+                "spanish": "arca"
+            },
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יִּתֵּ֧ן ",
+                "parsing": "verbo.qal.wayq.p3.m.sg",
+                "strong": "5414",
+                "spanish": "puso"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "כַּפֹּ֛רֶת ",
+                "parsing": "subs.f.sg.a",
+                "strong": "3727",
+                "spanish": "propiciatorio"
+            },
+            {
+                "hebrew": "עַל־",
+                "parsing": "prep",
+                "strong": "5921",
+                "spanish": "sobre"
+            },
+            {
+                "hebrew": "הָ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "אָרֹ֖ן ",
+                "parsing": "subs.u.sg.a",
+                "strong": "727",
+                "spanish": "arca"
+            },
+            {
+                "hebrew": "מִ",
+                "parsing": "prep",
+                "strong": "4480",
+                "spanish": "de"
+            },
+            {
+                "hebrew": "לְ",
+                "parsing": "prep",
+                "strong": "9003",
+                "spanish": "-"
+            },
+            {
+                "hebrew": "מָֽעְלָה׃ ",
+                "parsing": "subs.u.sg.a",
+                "strong": "4605",
+                "spanish": "encima"
+            }
+        ],
+        "verse": 20
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יָּבֵ֣א ",
+                "parsing": "verbo.hif.wayq.p3.m.sg",
+                "strong": "935",
+                "spanish": "metió"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "הָ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "אָרֹן֮ ",
+                "parsing": "subs.u.sg.a",
+                "strong": "727",
+                "spanish": "arca"
+            },
+            {
+                "hebrew": "אֶל־",
+                "parsing": "prep",
+                "strong": "413",
+                "spanish": "en"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "מִּשְׁכָּן֒ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4908",
+                "spanish": "tabernáculo"
+            },
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יָּ֗שֶׂם ",
+                "parsing": "verbo.qal.wayq.p3.m.sg",
+                "strong": "7760",
+                "spanish": "colgó"
+            },
+            {
+                "hebrew": "אֵ֚ת ",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "פָּרֹ֣כֶת ",
+                "parsing": "subs.f.sg.c",
+                "strong": "6532",
+                "spanish": "cortina de"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "la"
+            },
+            {
+                "hebrew": "מָּסָ֔ךְ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4539",
+                "spanish": "tapadera"
+            },
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יָּ֕סֶךְ ",
+                "parsing": "verbo.hif.wayq.p3.m.sg",
+                "strong": "5526",
+                "spanish": "tapó"
+            },
+            {
+                "hebrew": "עַ֖ל ",
+                "parsing": "prep",
+                "strong": "5921",
+                "spanish": "sobre"
+            },
+            {
+                "hebrew": "אֲרֹ֣ון ",
+                "parsing": "subs.u.sg.c",
+                "strong": "727",
+                "spanish": "arca de"
+            },
+            {
+                "hebrew": "הָ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "עֵד֑וּת ",
+                "parsing": "subs.f.sg.a",
+                "strong": "5715",
+                "spanish": "testimoio"
+            },
+            {
+                "hebrew": "כַּ",
+                "parsing": "prep",
+                "strong": "9002",
+                "spanish": "-"
+            },
+            {
+                "hebrew": "אֲשֶׁ֛ר ",
+                "parsing": "conj",
+                "strong": "834",
+                "spanish": "como"
+            },
+            {
+                "hebrew": "צִוָּ֥ה ",
+                "parsing": "verbo.piel.perf.p3.m.sg",
+                "strong": "6680",
+                "spanish": "mandó"
+            },
+            {
+                "hebrew": "יְהוָ֖ה ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "3068",
+                "spanish": "Yahweh"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "a"
+            },
+            {
+                "hebrew": "מֹשֶֽׁה׃ ס ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "4872",
+                "spanish": "Moisés"
+            }
+        ],
+        "verse": 21
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יִּתֵּ֤ן ",
+                "parsing": "verbo.qal.wayq.p3.m.sg",
+                "strong": "5414",
+                "spanish": "puso"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "la"
+            },
+            {
+                "hebrew": "שֻּׁלְחָן֙ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "7979",
+                "spanish": "mesa"
+            },
+            {
+                "hebrew": "בְּ",
+                "parsing": "prep",
+                "strong": "9001",
+                "spanish": "en"
+            },
+            {
+                "hebrew": "אֹ֣הֶל ",
+                "parsing": "subs.m.sg.c",
+                "strong": "168",
+                "spanish": "tabernáculo de"
+            },
+            {
+                "hebrew": "מֹועֵ֔ד ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4150",
+                "spanish": "reunión"
+            },
+            {
+                "hebrew": "עַ֛ל ",
+                "parsing": "prep",
+                "strong": "5921",
+                "spanish": "en"
+            },
+            {
+                "hebrew": "יֶ֥רֶךְ ",
+                "parsing": "subs.f.sg.c",
+                "strong": "3409",
+                "spanish": "lado de"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "מִּשְׁכָּ֖ן ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4908",
+                "spanish": "tabernáculo"
+            },
+            {
+                "hebrew": "צָפֹ֑נָה ",
+                "parsing": "subs.f.sg.a",
+                "strong": "6828",
+                "spanish": "al norte"
+            },
+            {
+                "hebrew": "מִ",
+                "parsing": "prep",
+                "strong": "4480",
+                "spanish": "de"
+            },
+            {
+                "hebrew": "ח֖וּץ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "2351",
+                "spanish": "fuera de"
+            },
+            {
+                "hebrew": "לַ",
+                "parsing": "prep",
+                "strong": "9003",
+                "spanish": "a"
+            },
+            {
+                "hebrew": "פָּרֹֽכֶת׃ ",
+                "parsing": "subs.f.sg.a",
+                "strong": "6532",
+                "spanish": "cortina"
+            }
+        ],
+        "verse": 22
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יַּעֲרֹ֥ךְ ",
+                "parsing": "verbo.qal.wayq.p3.m.sg",
+                "strong": "6186",
+                "spanish": "colocó"
+            },
+            {
+                "hebrew": "עָלָ֛יו ",
+                "parsing": "prep.prs.p3.m.sg",
+                "strong": "5921",
+                "spanish": "sobre él"
+            },
+            {
+                "hebrew": "עֵ֥רֶךְ ",
+                "parsing": "subs.m.sg.c",
+                "strong": "6187",
+                "spanish": "juego de"
+            },
+            {
+                "hebrew": "לֶ֖חֶם ",
+                "parsing": "subs.u.sg.a",
+                "strong": "3899",
+                "spanish": "pan"
+            },
+            {
+                "hebrew": "לִ",
+                "parsing": "prep",
+                "strong": "9003",
+                "spanish": "a"
+            },
+            {
+                "hebrew": "פְנֵ֣י ",
+                "parsing": "subs.m.pl.c",
+                "strong": "6440",
+                "spanish": "ante"
+            },
+            {
+                "hebrew": "יְהוָ֑ה ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "3068",
+                "spanish": "Yahweh"
+            },
+            {
+                "hebrew": "כַּ",
+                "parsing": "prep",
+                "strong": "9002",
+                "spanish": "-"
+            },
+            {
+                "hebrew": "אֲשֶׁ֛ר ",
+                "parsing": "conj",
+                "strong": "834",
+                "spanish": "como"
+            },
+            {
+                "hebrew": "צִוָּ֥ה ",
+                "parsing": "verbo.piel.perf.p3.m.sg",
+                "strong": "6680",
+                "spanish": "mandó"
+            },
+            {
+                "hebrew": "יְהוָ֖ה ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "3068",
+                "spanish": "Yahweh"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "a"
+            },
+            {
+                "hebrew": "מֹשֶֽׁה׃ ס ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "4872",
+                "spanish": "Moisés"
+            }
+        ],
+        "verse": 23
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יָּ֤שֶׂם ",
+                "parsing": "verbo.qal.wayq.p3.m.sg",
+                "strong": "7760",
+                "spanish": "puso"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "מְּנֹרָה֙ ",
+                "parsing": "subs.f.sg.a",
+                "strong": "4501",
+                "spanish": "candelero"
+            },
+            {
+                "hebrew": "בְּ",
+                "parsing": "prep",
+                "strong": "9001",
+                "spanish": "en"
+            },
+            {
+                "hebrew": "אֹ֣הֶל ",
+                "parsing": "subs.m.sg.c",
+                "strong": "168",
+                "spanish": "tabernáculo de"
+            },
+            {
+                "hebrew": "מֹועֵ֔ד ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4150",
+                "spanish": "reunión"
+            },
+            {
+                "hebrew": "נֹ֖כַח ",
+                "parsing": "prep.m.sg.c",
+                "strong": "5226",
+                "spanish": "frente a"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "la"
+            },
+            {
+                "hebrew": "שֻּׁלְחָ֑ן ",
+                "parsing": "subs.m.sg.a",
+                "strong": "7979",
+                "spanish": "mesa"
+            },
+            {
+                "hebrew": "עַ֛ל ",
+                "parsing": "prep",
+                "strong": "5921",
+                "spanish": "en"
+            },
+            {
+                "hebrew": "יֶ֥רֶךְ ",
+                "parsing": "subs.f.sg.c",
+                "strong": "3409",
+                "spanish": "lado de"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "מִּשְׁכָּ֖ן ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4908",
+                "spanish": "tabernáculo"
+            },
+            {
+                "hebrew": "נֶֽגְבָּה׃ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "5045",
+                "spanish": "al sur"
+            }
+        ],
+        "verse": 24
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יַּ֥עַל ",
+                "parsing": "verbo.hif.wayq.p3.m.sg",
+                "strong": "5927",
+                "spanish": "preparó"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "las"
+            },
+            {
+                "hebrew": "נֵּרֹ֖ת ",
+                "parsing": "subs.m.pl.a",
+                "strong": "5216",
+                "spanish": "lámparas"
+            },
+            {
+                "hebrew": "לִ",
+                "parsing": "prep",
+                "strong": "9003",
+                "spanish": "a"
+            },
+            {
+                "hebrew": "פְנֵ֣י ",
+                "parsing": "subs.m.pl.c",
+                "strong": "6440",
+                "spanish": "ante"
+            },
+            {
+                "hebrew": "יְהוָ֑ה ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "3068",
+                "spanish": "Yahweh"
+            },
+            {
+                "hebrew": "כַּ",
+                "parsing": "prep",
+                "strong": "9002",
+                "spanish": "-"
+            },
+            {
+                "hebrew": "אֲשֶׁ֛ר ",
+                "parsing": "conj",
+                "strong": "834",
+                "spanish": "como"
+            },
+            {
+                "hebrew": "צִוָּ֥ה ",
+                "parsing": "verbo.piel.perf.p3.m.sg",
+                "strong": "6680",
+                "spanish": "mandó"
+            },
+            {
+                "hebrew": "יְהוָ֖ה ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "3068",
+                "spanish": "Yahweh"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "a"
+            },
+            {
+                "hebrew": "מֹשֶֽׁה׃ ס ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "4872",
+                "spanish": "Moisés"
+            }
+        ],
+        "verse": 25
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יָּ֛שֶׂם ",
+                "parsing": "verbo.qal.wayq.p3.m.sg",
+                "strong": "7760",
+                "spanish": "puso"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "מִזְבַּ֥ח ",
+                "parsing": "subs.m.sg.c",
+                "strong": "4196",
+                "spanish": "altar de"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "זָּהָ֖ב ",
+                "parsing": "subs.m.sg.a",
+                "strong": "2091",
+                "spanish": "oro"
+            },
+            {
+                "hebrew": "בְּ",
+                "parsing": "prep",
+                "strong": "9001",
+                "spanish": "en"
+            },
+            {
+                "hebrew": "אֹ֣הֶל ",
+                "parsing": "subs.m.sg.c",
+                "strong": "168",
+                "spanish": "tabernáculo de"
+            },
+            {
+                "hebrew": "מֹועֵ֑ד ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4150",
+                "spanish": "reunión"
+            },
+            {
+                "hebrew": "לִ",
+                "parsing": "prep",
+                "strong": "9003",
+                "spanish": "-"
+            },
+            {
+                "hebrew": "פְנֵ֖י ",
+                "parsing": "subs.m.pl.c",
+                "strong": "6440",
+                "spanish": "delante de"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "la"
+            },
+            {
+                "hebrew": "פָּרֹֽכֶת׃ ",
+                "parsing": "subs.f.sg.a",
+                "strong": "6532",
+                "spanish": "cortina"
+            }
+        ],
+        "verse": 26
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יַּקְטֵ֥ר ",
+                "parsing": "verbo.hif.wayq.p3.m.sg",
+                "strong": "6999",
+                "spanish": "quemó"
+            },
+            {
+                "hebrew": "עָלָ֖יו ",
+                "parsing": "prep.prs.p3.m.sg",
+                "strong": "5921",
+                "spanish": "sobre él"
+            },
+            {
+                "hebrew": "קְטֹ֣רֶת ",
+                "parsing": "subs.f.sg.c",
+                "strong": "7004",
+                "spanish": "incienso de"
+            },
+            {
+                "hebrew": "סַמִּ֑ים ",
+                "parsing": "subs.m.pl.a",
+                "strong": "5561",
+                "spanish": "aromas"
+            },
+            {
+                "hebrew": "כַּ",
+                "parsing": "prep",
+                "strong": "9002",
+                "spanish": "-"
+            },
+            {
+                "hebrew": "אֲשֶׁ֛ר ",
+                "parsing": "conj",
+                "strong": "834",
+                "spanish": "como"
+            },
+            {
+                "hebrew": "צִוָּ֥ה ",
+                "parsing": "verbo.piel.perf.p3.m.sg",
+                "strong": "6680",
+                "spanish": "mandó"
+            },
+            {
+                "hebrew": "יְהוָ֖ה ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "3068",
+                "spanish": "Yahweh"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "a"
+            },
+            {
+                "hebrew": "מֹשֶֽׁה׃ פ ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "4872",
+                "spanish": "Moisés"
+            }
+        ],
+        "verse": 27
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יָּ֛שֶׂם ",
+                "parsing": "verbo.qal.wayq.p3.m.sg",
+                "strong": "7760",
+                "spanish": "puso"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "מָסַ֥ךְ ",
+                "parsing": "subs.m.sg.c",
+                "strong": "4539",
+                "spanish": "cortina de"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "la"
+            },
+            {
+                "hebrew": "פֶּ֖תַח ",
+                "parsing": "subs.m.sg.a",
+                "strong": "6607",
+                "spanish": "puerta"
+            },
+            {
+                "hebrew": "לַ",
+                "parsing": "prep",
+                "strong": "9003",
+                "spanish": "a"
+            },
+            {
+                "hebrew": "מִּשְׁכָּֽן׃ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4908",
+                "spanish": "tabernáculo"
+            }
+        ],
+        "verse": 28
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "אֵת֙ ",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "מִזְבַּ֣ח ",
+                "parsing": "subs.m.sg.c",
+                "strong": "4196",
+                "spanish": "altar de"
+            },
+            {
+                "hebrew": "הָ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "עֹלָ֔ה ",
+                "parsing": "subs.f.sg.a",
+                "strong": "5930",
+                "spanish": "holocausto"
+            },
+            {
+                "hebrew": "שָׂ֕ם ",
+                "parsing": "verbo.qal.perf.p3.m.sg",
+                "strong": "7760",
+                "spanish": "puso"
+            },
+            {
+                "hebrew": "פֶּ֖תַח ",
+                "parsing": "subs.m.sg.c",
+                "strong": "6607",
+                "spanish": "puerta de"
+            },
+            {
+                "hebrew": "מִשְׁכַּ֣ן ",
+                "parsing": "subs.m.sg.c",
+                "strong": "4908",
+                "spanish": "tabernáculo"
+            },
+            {
+                "hebrew": "אֹֽהֶל־",
+                "parsing": "subs.m.sg.c",
+                "strong": "168",
+                "spanish": "tabernáculo de"
+            },
+            {
+                "hebrew": "מֹועֵ֑ד ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4150",
+                "spanish": "reunión"
+            },
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יַּ֣עַל ",
+                "parsing": "verbo.hif.wayq.p3.m.sg",
+                "strong": "5927",
+                "spanish": "ofreció"
+            },
+            {
+                "hebrew": "עָלָ֗יו ",
+                "parsing": "prep.prs.p3.m.sg",
+                "strong": "5921",
+                "spanish": "sobre él"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "הָ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "עֹלָה֙ ",
+                "parsing": "subs.f.sg.a",
+                "strong": "5930",
+                "spanish": "holocausto"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "la"
+            },
+            {
+                "hebrew": "מִּנְחָ֔ה ",
+                "parsing": "subs.f.sg.a",
+                "strong": "4503",
+                "spanish": "ofrenda vegetal"
+            },
+            {
+                "hebrew": "כַּ",
+                "parsing": "prep",
+                "strong": "9002",
+                "spanish": "-"
+            },
+            {
+                "hebrew": "אֲשֶׁ֛ר ",
+                "parsing": "conj",
+                "strong": "834",
+                "spanish": "como"
+            },
+            {
+                "hebrew": "צִוָּ֥ה ",
+                "parsing": "verbo.piel.perf.p3.m.sg",
+                "strong": "6680",
+                "spanish": "mandó"
+            },
+            {
+                "hebrew": "יְהוָ֖ה ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "3068",
+                "spanish": "Yahweh"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "a"
+            },
+            {
+                "hebrew": "מֹשֶֽׁה׃ ס ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "4872",
+                "spanish": "Moisés"
+            }
+        ],
+        "verse": 29
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יָּ֨שֶׂם֙ ",
+                "parsing": "verbo.qal.wayq.p3.m.sg",
+                "strong": "7760",
+                "spanish": "colocó"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "la"
+            },
+            {
+                "hebrew": "כִּיֹּ֔ר ",
+                "parsing": "subs.m.sg.a",
+                "strong": "3595",
+                "spanish": "fuente"
+            },
+            {
+                "hebrew": "בֵּֽין־",
+                "parsing": "prep.m.sg.c",
+                "strong": "996",
+                "spanish": "entre"
+            },
+            {
+                "hebrew": "אֹ֥הֶל ",
+                "parsing": "subs.m.sg.c",
+                "strong": "168",
+                "spanish": "tabernáculo de"
+            },
+            {
+                "hebrew": "מֹועֵ֖ד ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4150",
+                "spanish": "reunión"
+            },
+            {
+                "hebrew": "וּ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "בֵ֣ין ",
+                "parsing": "prep.m.sg.c",
+                "strong": "996",
+                "spanish": "entre"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "מִּזְבֵּ֑חַ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4196",
+                "spanish": "altar"
+            },
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יִּתֵּ֥ן ",
+                "parsing": "verbo.qal.wayq.p3.m.sg",
+                "strong": "5414",
+                "spanish": "puso"
+            },
+            {
+                "hebrew": "שָׁ֛מָּה ",
+                "parsing": "advb",
+                "strong": "8033",
+                "spanish": "allí"
+            },
+            {
+                "hebrew": "מַ֖יִם ",
+                "parsing": "subs.m.pl.a",
+                "strong": "4325",
+                "spanish": "agua"
+            },
+            {
+                "hebrew": "לְ",
+                "parsing": "prep",
+                "strong": "9003",
+                "spanish": "para"
+            },
+            {
+                "hebrew": "רָחְצָֽה׃ ",
+                "parsing": "verbo.qal.infc.u.u.u.a",
+                "strong": "7364",
+                "spanish": "lavarse"
+            }
+        ],
+        "verse": 30
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "רָחֲצ֣וּ ",
+                "parsing": "verbo.qal.perf.p3.u.pl",
+                "strong": "7364",
+                "spanish": "se lavaron"
+            },
+            {
+                "hebrew": "מִמֶּ֔נּוּ ",
+                "parsing": "prep.prs.p3.m.sg",
+                "strong": "4480",
+                "spanish": "en él"
+            },
+            {
+                "hebrew": "מֹשֶׁ֖ה ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "4872",
+                "spanish": "Moisés"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "אַהֲרֹ֣ן ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "175",
+                "spanish": "Aarón"
+            },
+            {
+                "hebrew": "וּ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "בָנָ֑יו ",
+                "parsing": "subs.m.pl.a.prs.p3.m.sg",
+                "strong": "1121",
+                "spanish": "sus hijos"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "יְדֵיהֶ֖ם ",
+                "parsing": "subs.u.du.a.prs.p3.m.pl",
+                "strong": "3027",
+                "spanish": "sus manos"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "רַגְלֵיהֶֽם׃ ",
+                "parsing": "subs.f.du.a.prs.p3.m.pl",
+                "strong": "7272",
+                "spanish": "sus pies"
+            }
+        ],
+        "verse": 31
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "בְּ",
+                "parsing": "prep",
+                "strong": "9001",
+                "spanish": "en"
+            },
+            {
+                "hebrew": "בֹאָ֞ם ",
+                "parsing": "verbo.qal.infc.u.u.u.a.prs.p3.m.pl",
+                "strong": "935",
+                "spanish": "entrar de ellos"
+            },
+            {
+                "hebrew": "אֶל־",
+                "parsing": "prep",
+                "strong": "413",
+                "spanish": "a"
+            },
+            {
+                "hebrew": "אֹ֣הֶל ",
+                "parsing": "subs.m.sg.c",
+                "strong": "168",
+                "spanish": "tabernáculo de"
+            },
+            {
+                "hebrew": "מֹועֵ֗ד ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4150",
+                "spanish": "reunión"
+            },
+            {
+                "hebrew": "וּ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "בְ",
+                "parsing": "prep",
+                "strong": "9001",
+                "spanish": "en"
+            },
+            {
+                "hebrew": "קָרְבָתָ֛ם ",
+                "parsing": "verbo.qal.infc.u.u.u.a.prs.p3.m.pl",
+                "strong": "7126",
+                "spanish": "acercarse de ellos"
+            },
+            {
+                "hebrew": "אֶל־",
+                "parsing": "prep",
+                "strong": "413",
+                "spanish": "a"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "מִּזְבֵּ֖חַ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4196",
+                "spanish": "altar"
+            },
+            {
+                "hebrew": "יִרְחָ֑צוּ ",
+                "parsing": "verbo.qal.impf.p3.m.pl",
+                "strong": "7364",
+                "spanish": "ae lavaron"
+            },
+            {
+                "hebrew": "כַּ",
+                "parsing": "prep",
+                "strong": "9002",
+                "spanish": "-"
+            },
+            {
+                "hebrew": "אֲשֶׁ֛ר ",
+                "parsing": "conj",
+                "strong": "834",
+                "spanish": "como"
+            },
+            {
+                "hebrew": "צִוָּ֥ה ",
+                "parsing": "verbo.piel.perf.p3.m.sg",
+                "strong": "6680",
+                "spanish": "mandó"
+            },
+            {
+                "hebrew": "יְהוָ֖ה ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "3068",
+                "spanish": "Yahweh"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "a"
+            },
+            {
+                "hebrew": "מֹשֶֽׁה׃ ס ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "4872",
+                "spanish": "Moisés"
+            }
+        ],
+        "verse": 32
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יָּ֣קֶם ",
+                "parsing": "verbo.hif.wayq.p3.m.sg",
+                "strong": "6965",
+                "spanish": "erigió"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "הֶ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "חָצֵ֗ר ",
+                "parsing": "subs.u.sg.a",
+                "strong": "2691",
+                "spanish": "atrio"
+            },
+            {
+                "hebrew": "סָבִיב֙ ",
+                "parsing": "advb.u.sg.a",
+                "strong": "5439",
+                "spanish": "alrededor"
+            },
+            {
+                "hebrew": "לַ",
+                "parsing": "prep",
+                "strong": "9003",
+                "spanish": "a"
+            },
+            {
+                "hebrew": "מִּשְׁכָּ֣ן ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4908",
+                "spanish": "tabernáculo"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "לַ",
+                "parsing": "prep",
+                "strong": "9003",
+                "spanish": "a"
+            },
+            {
+                "hebrew": "מִּזְבֵּ֔חַ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4196",
+                "spanish": "altar"
+            },
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יִּתֵּ֕ן ",
+                "parsing": "verbo.qal.wayq.p3.m.sg",
+                "strong": "5414",
+                "spanish": "puso"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "מָסַ֖ךְ ",
+                "parsing": "subs.m.sg.c",
+                "strong": "4539",
+                "spanish": "cortina de"
+            },
+            {
+                "hebrew": "שַׁ֣עַר ",
+                "parsing": "subs.m.sg.c",
+                "strong": "8179",
+                "spanish": "entrada de"
+            },
+            {
+                "hebrew": "הֶ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "חָצֵ֑ר ",
+                "parsing": "subs.u.sg.a",
+                "strong": "2691",
+                "spanish": "atrio"
+            },
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יְכַ֥ל ",
+                "parsing": "verbo.piel.wayq.p3.m.sg",
+                "strong": "3615",
+                "spanish": "terminó"
+            },
+            {
+                "hebrew": "מֹשֶׁ֖ה ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "4872",
+                "spanish": "Moisés"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "la"
+            },
+            {
+                "hebrew": "מְּלָאכָֽה׃ פ ",
+                "parsing": "subs.f.sg.a",
+                "strong": "4399",
+                "spanish": "obra"
+            }
+        ],
+        "verse": 33
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וַ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "יְכַ֥ס ",
+                "parsing": "verbo.piel.wayq.p3.m.sg",
+                "strong": "3680",
+                "spanish": "cubrió"
+            },
+            {
+                "hebrew": "הֶ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "la"
+            },
+            {
+                "hebrew": "עָנָ֖ן ",
+                "parsing": "subs.m.sg.a",
+                "strong": "6051",
+                "spanish": "nube"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "אֹ֣הֶל ",
+                "parsing": "subs.m.sg.c",
+                "strong": "168",
+                "spanish": "tabernáculo de"
+            },
+            {
+                "hebrew": "מֹועֵ֑ד ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4150",
+                "spanish": "reunión"
+            },
+            {
+                "hebrew": "וּ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "כְבֹ֣וד ",
+                "parsing": "subs.u.sg.c",
+                "strong": "3519",
+                "spanish": "gloria de"
+            },
+            {
+                "hebrew": "יְהוָ֔ה ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "3068",
+                "spanish": "Yahweh"
+            },
+            {
+                "hebrew": "מָלֵ֖א ",
+                "parsing": "verbo.qal.perf.p3.m.sg",
+                "strong": "4390",
+                "spanish": "llenó"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "מִּשְׁכָּֽן׃ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4908",
+                "spanish": "tabernáculo"
+            }
+        ],
+        "verse": 34
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "לֹא־",
+                "parsing": "nega",
+                "strong": "3808",
+                "spanish": "no"
+            },
+            {
+                "hebrew": "יָכֹ֣ל ",
+                "parsing": "verbo.qal.perf.p3.m.sg",
+                "strong": "3201",
+                "spanish": "podía"
+            },
+            {
+                "hebrew": "מֹשֶׁ֗ה ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "4872",
+                "spanish": "Moisés"
+            },
+            {
+                "hebrew": "לָ",
+                "parsing": "prep",
+                "strong": "9003",
+                "spanish": "a"
+            },
+            {
+                "hebrew": "בֹוא֙ ",
+                "parsing": "verbo.qal.infc.u.u.u.a",
+                "strong": "935",
+                "spanish": "entrar"
+            },
+            {
+                "hebrew": "אֶל־",
+                "parsing": "prep",
+                "strong": "413",
+                "spanish": "a"
+            },
+            {
+                "hebrew": "אֹ֣הֶל ",
+                "parsing": "subs.m.sg.c",
+                "strong": "168",
+                "spanish": "tabernáculo de"
+            },
+            {
+                "hebrew": "מֹועֵ֔ד ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4150",
+                "spanish": "reunión"
+            },
+            {
+                "hebrew": "כִּֽי־",
+                "parsing": "conj",
+                "strong": "3588",
+                "spanish": "porque"
+            },
+            {
+                "hebrew": "שָׁכַ֥ן ",
+                "parsing": "verbo.qal.perf.p3.m.sg",
+                "strong": "7931",
+                "spanish": "reposaba"
+            },
+            {
+                "hebrew": "עָלָ֖יו ",
+                "parsing": "prep.prs.p3.m.sg",
+                "strong": "5921",
+                "spanish": "sobre él"
+            },
+            {
+                "hebrew": "הֶ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "la"
+            },
+            {
+                "hebrew": "עָנָ֑ן ",
+                "parsing": "subs.m.sg.a",
+                "strong": "6051",
+                "spanish": "nube"
+            },
+            {
+                "hebrew": "וּ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "כְבֹ֣וד ",
+                "parsing": "subs.u.sg.c",
+                "strong": "3519",
+                "spanish": "gloría de"
+            },
+            {
+                "hebrew": "יְהוָ֔ה ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "3068",
+                "spanish": "Yahweh"
+            },
+            {
+                "hebrew": "מָלֵ֖א ",
+                "parsing": "verbo.qal.perf.p3.m.sg",
+                "strong": "4390",
+                "spanish": "llenó"
+            },
+            {
+                "hebrew": "אֶת־",
+                "parsing": "prep",
+                "strong": "853",
+                "spanish": "[Marcador de objeto]"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "מִּשְׁכָּֽן׃ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4908",
+                "spanish": "tabernáculo"
+            }
+        ],
+        "verse": 35
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וּ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "בְ",
+                "parsing": "prep",
+                "strong": "9001",
+                "spanish": "al"
+            },
+            {
+                "hebrew": "הֵעָלֹ֤ות ",
+                "parsing": "verbo.nif.infc.u.u.u.c",
+                "strong": "5927",
+                "spanish": "elevarse"
+            },
+            {
+                "hebrew": "הֶֽ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "la"
+            },
+            {
+                "hebrew": "עָנָן֙ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "6051",
+                "spanish": "nube"
+            },
+            {
+                "hebrew": "מֵ",
+                "parsing": "prep",
+                "strong": "4480",
+                "spanish": "de"
+            },
+            {
+                "hebrew": "עַ֣ל ",
+                "parsing": "prep",
+                "strong": "5921",
+                "spanish": "sobre"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "מִּשְׁכָּ֔ן ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4908",
+                "spanish": "tabernáculo"
+            },
+            {
+                "hebrew": "יִסְע֖וּ ",
+                "parsing": "verbo.qal.impf.p3.m.pl",
+                "strong": "5265",
+                "spanish": "partían"
+            },
+            {
+                "hebrew": "בְּנֵ֣י ",
+                "parsing": "subs.m.pl.c",
+                "strong": "1121",
+                "spanish": "hijos de"
+            },
+            {
+                "hebrew": "יִשְׂרָאֵ֑ל ",
+                "parsing": "nmpr.u.sg.a",
+                "strong": "3478",
+                "spanish": "Israel"
+            },
+            {
+                "hebrew": "בְּ",
+                "parsing": "prep",
+                "strong": "9001",
+                "spanish": "en"
+            },
+            {
+                "hebrew": "כֹ֖ל ",
+                "parsing": "subs.m.sg.c",
+                "strong": "3605",
+                "spanish": "todos"
+            },
+            {
+                "hebrew": "מַסְעֵיהֶֽם׃ ",
+                "parsing": "subs.m.pl.a.prs.p3.m.pl",
+                "strong": "4550",
+                "spanish": "viajes de ellos"
+            }
+        ],
+        "verse": 36
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "אִם־",
+                "parsing": "conj",
+                "strong": "518",
+                "spanish": "si"
+            },
+            {
+                "hebrew": "לֹ֥א ",
+                "parsing": "nega",
+                "strong": "3808",
+                "spanish": "no"
+            },
+            {
+                "hebrew": "יֵעָלֶ֖ה ",
+                "parsing": "verbo.nif.impf.p3.m.sg",
+                "strong": "5927",
+                "spanish": "ascendía"
+            },
+            {
+                "hebrew": "הֶ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "la"
+            },
+            {
+                "hebrew": "עָנָ֑ן ",
+                "parsing": "subs.m.sg.a",
+                "strong": "6051",
+                "spanish": "nube"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "entonces"
+            },
+            {
+                "hebrew": "לֹ֣א ",
+                "parsing": "nega",
+                "strong": "3808",
+                "spanish": "no"
+            },
+            {
+                "hebrew": "יִסְע֔וּ ",
+                "parsing": "verbo.qal.impf.p3.m.pl",
+                "strong": "5265",
+                "spanish": "partían"
+            },
+            {
+                "hebrew": "עַד־",
+                "parsing": "prep",
+                "strong": "5704",
+                "spanish": "hasta"
+            },
+            {
+                "hebrew": "יֹ֖ום ",
+                "parsing": "subs.m.sg.c",
+                "strong": "3117",
+                "spanish": "día"
+            },
+            {
+                "hebrew": "הֵעָלֹתֹֽו׃ ",
+                "parsing": "verbo.nif.infc.u.u.u.a.prs.p3.m.sg",
+                "strong": "5927",
+                "spanish": "su ascender"
+            }
+        ],
+        "verse": 37
+    },
+    {
+        "chapter": 40,
+        "words": [
+            {
+                "hebrew": "כִּי֩ ",
+                "parsing": "conj",
+                "strong": "3588",
+                "spanish": "Pues"
+            },
+            {
+                "hebrew": "עֲנַ֨ן ",
+                "parsing": "subs.m.sg.c",
+                "strong": "6051",
+                "spanish": "nube de"
+            },
+            {
+                "hebrew": "יְהוָ֤ה ",
+                "parsing": "nmpr.m.sg.a",
+                "strong": "3068",
+                "spanish": "Yahweh"
+            },
+            {
+                "hebrew": "עַֽל־",
+                "parsing": "prep",
+                "strong": "5921",
+                "spanish": "sobre"
+            },
+            {
+                "hebrew": "הַ",
+                "parsing": "art",
+                "strong": "9006",
+                "spanish": "el"
+            },
+            {
+                "hebrew": "מִּשְׁכָּן֙ ",
+                "parsing": "subs.m.sg.a",
+                "strong": "4908",
+                "spanish": "tabernáculo"
+            },
+            {
+                "hebrew": "יֹומָ֔ם ",
+                "parsing": "advb",
+                "strong": "3119",
+                "spanish": "de día"
+            },
+            {
+                "hebrew": "וְ",
+                "parsing": "conj",
+                "strong": "9005",
+                "spanish": "y"
+            },
+            {
+                "hebrew": "אֵ֕שׁ ",
+                "parsing": "subs.u.sg.a",
+                "strong": "784",
+                "spanish": "fuego"
+            },
+            {
+                "hebrew": "תִּהְיֶ֥ה ",
+                "parsing": "verbo.qal.impf.p3.f.sg",
+                "strong": "1961",
+                "spanish": "estaba"
+            },
+            {
+                "hebrew": "לַ֖יְלָה ",
+                "parsing": "advb.m.sg.a",
+                "strong": "3915",
+                "spanish": "de noche"
+            },
+            {
+                "hebrew": "בֹּ֑ו ",
+                "parsing": "prep.prs.p3.m.sg",
+                "strong": "9001",
+                "spanish": "en él"
+            },
+            {
+                "hebrew": "לְ",
+                "parsing": "prep",
+                "strong": "9003",
+                "spanish": "a"
+            },
+            {
+                "hebrew": "עֵינֵ֥י ",
+                "parsing": "subs.f.du.c",
+                "strong": "5869",
+                "spanish": "ojos de"
+            },
+            {
+                "hebrew": "כָל־",
+                "parsing": "subs.m.sg.c",
+                "strong": "3605",
+                "spanish": "toda"
+            },
+            {
+                "hebrew": "בֵּֽית־",
+                "parsing": "subs.m.sg.c",
+                "strong": "1004",
+                "spanish": "casa de"
+            },
+            {
+                "hebrew": "יִשְׂרָאֵ֖ל ",
+                "parsing": "nmpr.u.sg.a",
+                "strong": "3478",
+                "spanish": "Israel"
+            },
+            {
+                "hebrew": "בְּ",
+                "parsing": "prep",
+                "strong": "9001",
+                "spanish": "en"
+            },
+            {
+                "hebrew": "כָל־",
+                "parsing": "subs.m.sg.c",
+                "strong": "3605",
+                "spanish": "todos"
+            },
+            {
+                "hebrew": "מַסְעֵיהֶֽם׃ ",
+                "parsing": "subs.m.pl.a.prs.p3.m.pl",
+                "strong": "4550",
+                "spanish": "viajes de ellos"
+            }
+        ],
+        "verse": 38
     }
 ]
