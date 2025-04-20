@@ -223,9 +223,12 @@ export const useBibleData = () => {
       let finalBookData: CapituloDataMap; // Variable para almacenar el resultado final
 
       // Cargar datos (JSON para Génesis y Éxodo, XML para otros)
-      if (libroId === 'Genesis' || libroId === 'Exodus') {
+      if (libroId === 'Genesis' || libroId === 'Exodus' || libroId === 'Leviticus') {
         // Determinar el nombre del archivo JSON basado en el libroId
-        const jsonFileName = libroId === 'Genesis' ? 'genesis.json' : 'exodus.json';
+        let jsonFileName = '';
+        if (libroId === 'Genesis') jsonFileName = 'genesis.json';
+        else if (libroId === 'Exodus') jsonFileName = 'exodus.json';
+        else if (libroId === 'Leviticus') jsonFileName = 'leviticus.json';
         console.log(`Cargando datos JSON (${jsonFileName}) para ${libroId}...`);
         // Ajustar la ruta para que coincida con la estructura de carpetas
         const jsonResponse = await fetch(`/data/bible/${jsonFileName}`);
@@ -233,7 +236,6 @@ export const useBibleData = () => {
         const jsonData = await jsonResponse.json();
         // Procesar JSON que incluye hebreo, strong y español
         const processedData = procesarHebreoJSON(jsonData);
-        // Eliminar comprobación y límites para Éxodo, ya que el archivo ya está corregido
         finalBookData = processedData;
         console.log(`Datos Completos (JSON) procesados para ${libroId}.`);
 
