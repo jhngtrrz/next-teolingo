@@ -77,7 +77,7 @@ export const useBibleData = () => {
             .filter(word => word.hebrew)
             .map(word => ({
               original: word.hebrew || '',
-              traduccion: word.spanish || '[sin trad.]',
+              traduccion: word.spanish || '',
               strong: word.strong,
               parsing: word.parsing
             }));
@@ -103,7 +103,8 @@ export const useBibleData = () => {
       const bookIdMap: { [key: string]: string } = {
         'Genesis': 'GEN',
         'Exodus': 'EXO',
-        'Leviticus': 'LEV'
+        'Leviticus': 'LEV',
+        'Numbers': 'NUM'
       };
       const xmlBookId = bookIdMap[bookId] || bookId.toUpperCase();
       const allVerses = Array.from(xmlDoc.querySelectorAll('v'))
@@ -196,11 +197,12 @@ export const useBibleData = () => {
       const spanishXmlDoc = parser.parseFromString(spanishData, "text/xml");
       const spanishBookData = procesarEspanolXML(spanishXmlDoc, libroId);
 
-      if (libroId === 'Genesis' || libroId === 'Exodus' || libroId === 'Leviticus') {
+      if (libroId === 'Genesis' || libroId === 'Exodus' || libroId === 'Leviticus' || libroId === 'Numbers') {
         let jsonFileName = '';
         if (libroId === 'Genesis') jsonFileName = 'genesis.json';
         else if (libroId === 'Exodus') jsonFileName = 'exodus.json';
         else if (libroId === 'Leviticus') jsonFileName = 'leviticus.json';
+        else if (libroId === 'Numbers') jsonFileName = 'numbers.json';
         const jsonResponse = await fetch(`/data/bible/${jsonFileName}`);
         if (!jsonResponse.ok) throw new Error(`Error cargando JSON (${jsonFileName}): ${jsonResponse.status}`);
         const jsonData = await jsonResponse.json();
@@ -215,7 +217,7 @@ export const useBibleData = () => {
             if (spanishBookData[capNum]?.[verseNum]?.fullText) {
               verse.textoCompleto = spanishBookData[capNum][verseNum].fullText;
             } else {
-              verse.textoCompleto = verse.palabras.map(p => p.traduccion).join(' ').replace(' [sin trad.]', '').trim() || "Traducción completa no disponible en JSON.";
+              verse.textoCompleto = verse.palabras.map(p => p.traduccion).join(' ').replace('', '').trim() || "Traducción completa no disponible en JSON.";
             }
           });
         });
@@ -245,7 +247,7 @@ export const useBibleData = () => {
             for (let index = 0; index < hebrewWords.length; index++) {
               const hebrewWord = hebrewWords[index];
               const spanishWord = spanishWords[index];
-              const traduccion = spanishWord?.traduccion || '[sin trad.]';
+              const traduccion = spanishWord?.traduccion || '';
               const strong = spanishWord?.strong;
 
               mergedPalabras.push({

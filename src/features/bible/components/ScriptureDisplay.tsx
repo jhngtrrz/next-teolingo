@@ -67,7 +67,7 @@ const ScriptureDisplay = ({
                   {palabra.original}
                 </div>
                 <div className="translation text-sm text-secondary-foreground max-w-[100px]">
-                  {palabra.traduccion || <em className="text-muted-foreground">[Sin trad.]</em>}
+                  {palabra.traduccion}
                 </div>
               </div>
             ))}
