@@ -36,36 +36,41 @@ const ScriptureDisplay = ({
           </div>
         </div>
       );
-    }    // Para hebreo, no invertimos el array, dejamos que el CSS maneje la dirección
+    }
     const palabras = [...versiculo.palabras];
+
+    // Renderizar texto hebreo continuo (sin espacios entre palabras)
+    // const textoHebreo = palabras.map(p => p.original).join('');
+
     return (
       <div
         className="verse mb-4 pb-2 border-b border-gray-100 dark:border-gray-800"
         key={versiculoNum}
-        dir="rtl"
+        dir="rtl" // <-- Añadir dir="rtl" aquí para que el número vaya a la derecha
       >
         <div className="flex justify-start items-start w-full">
           <span className="verse-number font-bold ml-0 mr-2 order-first">{versiculoNum}</span>
           <div
-            className="interlinear-line flex flex-wrap gap-3 flex-1"
+            className="interlinear-line flex flex-wrap gap-3 flex-1" // <-- Quitar justify-end
             dir="rtl"
           >
             {palabras.map((palabra, i) => (
               <div
-                className="word-group flex flex-col items-center mb-2 min-w-[100px]"
+                className="word-group flex flex-col items-center mb-2 min-w-[100px]" // <-- Añadir min-w-[100px]
                 key={i}
               >
                 <div className="text-xs text-muted-foreground mb-1">{palabra.strong}</div>
                 <div
-                  className={`original text-2xl font-hebrew text-primary`}
-                  title={palabra.parsing ? palabra.parsing : undefined} // Añadir title si existe parsing
+                  className={`original text-2xl font-hebrew text-primary`} // <-- Cambiar text-lg a text-2xl
+                  title={palabra.parsing ? palabra.parsing : undefined}
                 >
                   {palabra.original}
                 </div>
-                <div className="translation text-sm text-secondary-foreground">
-                  {palabra.traduccion || <em className="text-muted-foreground">[Traducción no disponible]</em>}
+                <div className="translation text-sm text-secondary-foreground max-w-[100px]">
+                  {palabra.traduccion || <em className="text-muted-foreground">[Sin trad.]</em>}
                 </div>
-              </div>))}
+              </div>
+            ))}
           </div>
         </div>
       </div>
