@@ -22,6 +22,7 @@ export interface PalabraData {
 
 export interface VersiculoType {
   palabras: PalabraType[];
+  textoCompleto?: string; // Texto completo del versículo en español
 }
 
 export interface VersiculoDataMap {

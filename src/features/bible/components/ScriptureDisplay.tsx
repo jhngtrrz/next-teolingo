@@ -27,7 +27,7 @@ const ScriptureDisplay = ({
 
   // Renderizar un versículo en formato interlineal
   const renderVersiculo = (versiculo: VersiculoType, versiculoNum: number) => {
-    if (!versiculo || !versiculo.palabras || versiculo.palabras.length === 0) {
+    if (!versiculo || !versiculo.palabras || !versiculo.palabras.length) {
       return (
         <div className="verse" key={`empty-${versiculoNum}`}>
           <span className="verse-number">{versiculoNum}</span>
@@ -117,11 +117,15 @@ const ScriptureDisplay = ({
   // Renderizar un versículo específico
   if (typeof verseNum === 'number' && bibleData[bookId][chapterNum][verseNum]) {
     const versiculo = bibleData[bookId][chapterNum][verseNum];
+    const textoVersiculo = versiculo.textoCompleto || "Traducción no disponible.";
 
     return (
       <div className="p-5 bg-gray-50 dark:bg-gray-900 rounded-md">
         <h2 className="text-xl font-bold mb-4">{getLibroNombre(bookId)} {chapterNum}:{verseNum}</h2>
         {renderVersiculo(versiculo, verseNum)}
+        <div className="mt-4 p-3 bg-gray-100 dark:bg-gray-800 rounded-md mb-4">
+          <p>{textoVersiculo}</p>
+        </div>
       </div>
     );
   }

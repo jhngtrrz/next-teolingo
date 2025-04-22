@@ -8,8 +8,13 @@ interface SpanishWord {
   traduccion: string;
   strong?: string;
 }
+// *** Modificado para incluir texto completo ***
+interface SpanishVerseDetail {
+  words: SpanishWord[];
+  fullText: string;
+}
 interface SpanishVerseData {
-  [verseNum: number]: SpanishWord[];
+  [verseNum: number]: SpanishVerseDetail; // Cambiado de SpanishWord[]
 }
 interface SpanishChapterData {
   [capNum: number]: SpanishVerseData;
@@ -102,104 +107,158 @@ export const useBibleData = () => {
   }, []);
 
 
-  // Función para procesar el XML Español (USFX - para otros libros)
+  // Función para procesar el XML Español (USFX)
   const procesarEspanolXML = useCallback((xmlDoc: Document, bookId: string): SpanishChapterData => {
     const resultado: SpanishChapterData = {};
     try {
-      // Encuentra el libro específico usando el ID (insensible a mayúsculas/minúsculas para robustez)
-      const bookElement = xmlDoc.querySelector(`book[id="${bookId.toUpperCase()}"]`) || xmlDoc.querySelector(`book[id="${bookId.toLowerCase()}"]`);
+      // Mapear IDs de libros en inglés a sus equivalentes en el XML español
+      const bookIdMap: { [key: string]: string } = {
+        'Genesis': 'GEN',
+        'Exodus': 'EXO',
+        'Leviticus': 'LEV'
+        // Añadir más mapeos según sea necesario
+      };
 
-      // Si no se encuentra el libro, busca en todo el documento (puede ser un archivo de un solo libro)
-      const rootElement = bookElement || xmlDoc;
+      // Usar el ID mapeado o el original si no hay mapeo
+      const xmlBookId = bookIdMap[bookId] || bookId.toUpperCase();
+      console.log(`Buscando libro con ID "${xmlBookId}" en el XML español`);
 
-      const capitulos = rootElement.querySelectorAll('c'); // Busca capítulos
-      if (capitulos.length === 0) {
-        console.warn(`No se encontraron capítulos ('c') para el libro ${bookId} en el XML español.`);
-      }
+      // Función para extraer el texto de un versículo
+      const extraerTextoVersiculo = (verseElement: Element): string => {
+        let texto = '';
+        let currentNode: Node | null = verseElement.nextSibling;
 
-      // En lugar de iterar por capítulos <c>, procesaremos todos los versículos <v> del libro
-      // y los agruparemos por capítulo usando el atributo 'bcv' o 'id'.
-      const allVerses = rootElement.querySelectorAll('v');
-      allVerses.forEach(versiculo => {
-        const verseIdAttr = versiculo.getAttribute('id'); // Número de versículo
-        const bcvAttr = versiculo.getAttribute('bcv'); // Formato LIB.CAP.VER
+        // Buscar la etiqueta <ve> o el siguiente <v> que marque el fin del versículo
+        while (currentNode) {
+          if (currentNode.nodeType === Node.ELEMENT_NODE) {
+            const element = currentNode as Element;
+            const nodeName = element.nodeName.toUpperCase();
 
-        let capNum: number | null = null;
-        let verseNum: number | null = null;
+            // Si encontramos una etiqueta VE o V, terminamos la extracción
+            if (nodeName === 'VE') {
+              console.log('Encontrada etiqueta VE - fin de versículo');
+              break;
+            }
 
-        if (bcvAttr) {
-          const parts = bcvAttr.split('.');
-          if (parts.length === 3 && parts[0].toUpperCase() === bookId.toUpperCase()) {
-            capNum = parseInt(parts[1]);
-            verseNum = parseInt(parts[2]);
+            if (nodeName === 'V') {
+              console.log('Encontrado siguiente elemento V - fin de versículo anterior');
+              break;
+            }
+
+            // Ignorar notas al pie
+            if (nodeName === 'F') {
+              currentNode = currentNode.nextSibling;
+              continue;
+            }
+
+            // Si es una palabra o elemento de texto, añadirlo
+            if (nodeName === 'W') {
+              texto += element.textContent?.trim() + ' ';
+            } else {
+              // Para otros elementos, incluir su contenido
+              texto += element.textContent?.trim() + ' ';
+            }
           }
-        } else if (verseIdAttr) {
-          console.warn(`Versículo sin atributo 'bcv', usando 'id': ${verseIdAttr}. La asignación de capítulo puede ser incorrecta.`);
-          return;
+          // Nodos de texto directos
+          else if (currentNode.nodeType === Node.TEXT_NODE) {
+            const textoNodo = currentNode.textContent?.trim();
+            if (textoNodo && textoNodo.length > 0) {
+              texto += textoNodo + ' ';
+            }
+          }
+
+          currentNode = currentNode.nextSibling;
         }
 
-        if (capNum === null || verseNum === null) return; // Saltar si no pudimos determinar cap/ver
+        return texto.replace(/\s+/g, ' ').trim();
+      };
 
-        // Asegurarse de que el capítulo exista en el resultado
+      // Extraer palabras con sus strongs
+      const extraerPalabrasVersiculo = (verseElement: Element): SpanishWord[] => {
+        const palabras: SpanishWord[] = [];
+        let currentNode: Node | null = verseElement.nextSibling;
+
+        while (currentNode) {
+          if (currentNode.nodeType === Node.ELEMENT_NODE) {
+            const element = currentNode as Element;
+            const nodeName = element.nodeName.toUpperCase();
+
+            // Detectar fin de versículo
+            if (nodeName === 'VE' || nodeName === 'V') {
+              break;
+            }
+
+            // Extraer palabras con strong
+            if (nodeName === 'W') {
+              const traduccion = element.textContent?.trim() || '';
+              const strong = element.getAttribute('s') || undefined;
+              palabras.push({ traduccion, strong });
+            }
+          }
+
+          currentNode = currentNode.nextSibling;
+        }
+
+        return palabras;
+      };
+
+      // Encontrar todos los versículos del libro específico
+      const allVerses = Array.from(xmlDoc.querySelectorAll('v'))
+        .filter(v => {
+          const bcvAttr = v.getAttribute('bcv');
+          return bcvAttr && bcvAttr.startsWith(`${xmlBookId}.`);
+        });
+
+      console.log(`Encontrados ${allVerses.length} versículos para ${bookId} (ID: ${xmlBookId}) en el XML español`);
+
+      // Procesar cada versículo
+      allVerses.forEach(versiculo => {
+        const bcvAttr = versiculo.getAttribute('bcv');
+        if (!bcvAttr) return;
+
+        const parts = bcvAttr.split('.');
+        if (parts.length !== 3) return;
+
+        const capNum = parseInt(parts[1]);
+        const verseNum = parseInt(parts[2]);
+
         if (!resultado[capNum]) {
           resultado[capNum] = {};
         }
 
-        const palabrasTemp: SpanishWord[] = [];
-        const parentElement = versiculo.parentElement; // e.g., a <p> tag
+        // Extraer texto completo y palabras
+        const textoCompleto = extraerTextoVersiculo(versiculo);
+        const palabras = extraerPalabrasVersiculo(versiculo);
 
-        if (parentElement) {
-          let currentNode = versiculo.nextSibling; // Start after the <v> tag
+        resultado[capNum][verseNum] = {
+          fullText: textoCompleto,
+          words: palabras
+        };
 
-          while (currentNode && currentNode.parentElement === parentElement) {
-            // Stop if we hit the next verse marker within the same parent
-            if (currentNode.nodeName === 'v') {
-              break;
-            }
-
-            // Process <w> elements directly or nested within other elements
-            if (currentNode.nodeType === Node.ELEMENT_NODE) {
-              const element = currentNode as Element;
-              // Find all <w> descendants of the current sibling node
-              const wordsInNode = element.querySelectorAll('w');
-              if (element.nodeName === 'w') {
-                // If the node itself is 'w'
-                const traduccion = element.textContent?.trim() || '';
-                const strong = element.getAttribute('s') || undefined;
-                if (traduccion) {
-                  palabrasTemp.push({ traduccion, strong });
-                }
-              } else if (wordsInNode.length > 0) {
-                // If <w> are nested within this node
-                wordsInNode.forEach(word => {
-                  const traduccion = word.textContent?.trim() || '';
-                  const strong = word.getAttribute('s') || undefined;
-                  if (traduccion) {
-                    palabrasTemp.push({ traduccion, strong });
-                  }
-                });
-              }
-            }
-            currentNode = currentNode.nextSibling;
-          }
-        } else {
-          console.warn(`Verse ${bookId} ${capNum}:${verseNum} has no parent element? Skipping word extraction.`);
-        }
-
-        // Añadir las palabras encontradas para este versículo
-        if (palabrasTemp.length > 0) {
-          resultado[capNum][verseNum] = [...(resultado[capNum][verseNum] || []), ...palabrasTemp];
-          // *** DEBUG LOGGING START ***
-          if (bookId === 'Genesis' && capNum === 1 && verseNum === 1) {
-            console.log(`[procesarEspanolXML] Extracted Spanish for ${bookId} ${capNum}:${verseNum}:`, palabrasTemp.map(p => `${p.traduccion}(${p.strong || '-'})`));
-          }
-          // *** DEBUG LOGGING END ***
+        // Log para depuración
+        if (bookId === 'Genesis' && capNum === 1 && verseNum <= 5) {
+          console.log(`[EXTRACCIÓN] ${bookId} ${capNum}:${verseNum} - Texto: "${textoCompleto}"`);
         }
       });
+
+      // Verificar que encontramos datos
+      const capitulosEncontrados = Object.keys(resultado).length;
+      if (capitulosEncontrados === 0) {
+        console.error(`No se encontró ningún capítulo para ${bookId} en el XML español`);
+      } else {
+        console.log(`Se extrajeron datos para ${capitulosEncontrados} capítulos de ${bookId}`);
+        // Verificar el primer capítulo
+        const primerCapitulo = Math.min(...Object.keys(resultado).map(Number));
+        if (resultado[primerCapitulo]) {
+          const versiculosEnPrimerCapitulo = Object.keys(resultado[primerCapitulo]).length;
+          console.log(`El capítulo ${primerCapitulo} tiene ${versiculosEnPrimerCapitulo} versículos extraídos`);
+        }
+      }
+
     } catch (error) {
-      console.error("Error procesando XML Español (USFX):", error);
+      console.error("Error procesando XML Español:", error);
     }
-    // console.log("Datos Español Procesados:", resultado); // Para depuración
+
     return resultado;
   }, []);
 
@@ -210,9 +269,9 @@ export const useBibleData = () => {
       const firstChapterKey = Object.keys(bibleData[libroId])[0];
       if (firstChapterKey) {
         const firstVerseKey = Object.keys(bibleData[libroId][parseInt(firstChapterKey)])[0];
-        // Check if the first word has a translation (or the placeholder)
-        if (firstVerseKey && bibleData[libroId][parseInt(firstChapterKey)][parseInt(firstVerseKey)].palabras[0]?.traduccion !== '') {
-          console.log(`Datos para ${libroId} ya cargados.`);
+        // Check if the first verse has a full text (or the placeholder)
+        if (firstVerseKey && bibleData[libroId][parseInt(firstChapterKey)][parseInt(firstVerseKey)].textoCompleto && bibleData[libroId][parseInt(firstChapterKey)][parseInt(firstVerseKey)].textoCompleto !== '') {
+          console.log(`Datos para ${libroId} ya cargados (con texto completo).`);
           return bibleData[libroId];
         }
       }
@@ -220,9 +279,19 @@ export const useBibleData = () => {
 
     try {
       console.log(`Cargando datos para ${libroId}...`);
-      let finalBookData: CapituloDataMap; // Variable para almacenar el resultado final
+      let finalBookData: CapituloDataMap;
 
-      // Cargar datos (JSON para Génesis y Éxodo, XML para otros)
+      // PRIMER PASO: Cargar siempre el XML Español para obtener los textos completos
+      console.log(`Cargando XML Español para textos completos de ${libroId}...`);
+      const parser = new DOMParser();
+      const spanishXmlFile = 'spavbl_usfx.xml';
+      const spanishResponse = await fetch(`/data/bible/${spanishXmlFile}`);
+      if (!spanishResponse.ok) throw new Error(`Error cargando Español XML: ${spanishResponse.status}`);
+      const spanishData = await spanishResponse.text();
+      const spanishXmlDoc = parser.parseFromString(spanishData, "text/xml");
+      const spanishBookData = procesarEspanolXML(spanishXmlDoc, libroId);
+      console.log(`Datos Españoles (XML) procesados para ${libroId}.`);
+
       if (libroId === 'Genesis' || libroId === 'Exodus' || libroId === 'Leviticus') {
         // Determinar el nombre del archivo JSON basado en el libroId
         let jsonFileName = '';
@@ -236,13 +305,32 @@ export const useBibleData = () => {
         const jsonData = await jsonResponse.json();
         // Procesar JSON que incluye hebreo, strong y español
         const processedData = procesarHebreoJSON(jsonData);
+
+        // Asignar texto completo del XML español a los datos procesados del JSON
+        Object.keys(processedData).forEach(capNumStr => {
+          const capNum = parseInt(capNumStr);
+          Object.keys(processedData[capNum]).forEach(verseNumStr => {
+            const verseNum = parseInt(verseNumStr);
+            const verse = processedData[capNum][verseNum];
+
+            // Usar el texto completo del XML si existe, de lo contrario usar el generado por palabras
+            if (spanishBookData[capNum]?.[verseNum]?.fullText) {
+              verse.textoCompleto = spanishBookData[capNum][verseNum].fullText;
+              console.log(`Usando texto XML para ${libroId} ${capNum}:${verseNum}: "${verse.textoCompleto.substring(0, 40)}..."`);
+            } else {
+              // Fallback a unir traducciones si no hay texto XML
+              verse.textoCompleto = verse.palabras.map(p => p.traduccion).join(' ').replace(' [sin trad.]', '').trim() || "Traducción completa no disponible en JSON.";
+              console.log(`No se encontró texto XML para ${libroId} ${capNum}:${verseNum}, usando fallback.`);
+            }
+          });
+        });
+
         finalBookData = processedData;
-        console.log(`Datos Completos (JSON) procesados para ${libroId}.`);
+        console.log(`Datos Completos (JSON) procesados para ${libroId} con textos de XML.`);
 
       } else {
         // Lógica para otros libros (usando XML Hebreo y Español)
-        console.log(`Cargando datos XML para ${libroId}.`);
-        const parser = new DOMParser();
+        console.log(`Cargando datos XML Hebreo para ${libroId}.`);
 
         // Cargar XML Hebreo
         const hebrewXmlFile = `${libroId}.xml`;
@@ -251,16 +339,6 @@ export const useBibleData = () => {
         const hebrewData = await hebrewResponse.text();
         const hebrewXmlDoc = parser.parseFromString(hebrewData, "text/xml");
         const hebrewBookData = procesarHebreoXML(hebrewXmlDoc); // Solo hebreo y strong undefined
-        console.log(`Datos Hebreos (XML) procesados para ${libroId}.`);
-
-        // Cargar XML Español
-        const spanishXmlFile = 'spavbl_usfx.xml';
-        const spanishResponse = await fetch(`/data/bible/${spanishXmlFile}`);
-        if (!spanishResponse.ok) throw new Error(`Error cargando Español XML: ${spanishResponse.status}`);
-        const spanishData = await spanishResponse.text();
-        const spanishXmlDoc = parser.parseFromString(spanishData, "text/xml");
-        const spanishBookData = procesarEspanolXML(spanishXmlDoc, libroId); // Solo español y strong
-        console.log(`Datos Españoles (XML) procesados para ${libroId}.`);
 
         // Fusionar datos XML
         finalBookData = {}; // Inicializar para este libro
@@ -270,7 +348,10 @@ export const useBibleData = () => {
           Object.keys(hebrewBookData[capNum]).forEach(verseNumStr => {
             const verseNum = parseInt(verseNumStr);
             const hebrewWords = hebrewBookData[capNum][verseNum].palabras; // original, strong=undefined
-            const spanishWords = spanishBookData[capNum]?.[verseNum] || []; // traduccion, strong
+            // *** Acceder a los detalles del español ***
+            const spanishDetails = spanishBookData[capNum]?.[verseNum];
+            const spanishWords = spanishDetails?.words || [];
+            const spanishFullText = spanishDetails?.fullText || "Traducción completa no disponible."; // *** Obtener texto completo ***
             const mergedPalabras: PalabraData[] = [];
 
             for (let index = 0; index < hebrewWords.length; index++) {
@@ -292,12 +373,14 @@ export const useBibleData = () => {
               let extraSpanishText = '';
               for (let i = hebrewWords.length; i < spanishWords.length; i++) {
                 extraSpanishText += ` ${spanishWords[i].traduccion}`;
-                // Opcional: añadir strongs extra si es necesario
-                // if (spanishWords[i].strong) extraSpanishText += ` (${spanishWords[i].strong})`;
               }
               lastMergedWord.traduccion += ` ${extraSpanishText.trim()}`;
             }
-            finalBookData[capNum][verseNum] = { palabras: mergedPalabras };
+            // *** Asignar palabras y texto completo al resultado final ***
+            finalBookData[capNum][verseNum] = {
+              palabras: mergedPalabras,
+              textoCompleto: spanishFullText // *** Asignar el texto completo extraído ***
+            };
           });
         });
         console.log(`Datos XML fusionados para ${libroId}.`);
@@ -321,7 +404,7 @@ export const useBibleData = () => {
       });
       return null;
     }
-  }, [bibleData, procesarHebreoXML, procesarEspanolXML, procesarHebreoJSON]); // Dependencias actualizadas
+  }, [bibleData, procesarHebreoXML, procesarEspanolXML, procesarHebreoJSON]);
 
   return {
     bibleData,
