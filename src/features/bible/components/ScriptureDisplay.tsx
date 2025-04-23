@@ -2,6 +2,7 @@
 
 import { BibleDataType, VersiculoType } from '@/types/bible';
 import { antiguoTestamento } from '@/lib/api/bibleData';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 interface ScriptureDisplayProps {
   bookId: string;
@@ -79,31 +80,68 @@ const ScriptureDisplay = ({
 
   // Si está cargando, mostrar indicador
   if (loading) {
-    return <div className="p-5 bg-gray-50 dark:bg-gray-900 rounded-md"><p className="text-center italic text-gray-600">Cargando texto bíblico...</p></div>;
+    return (
+      <Card>
+        <CardContent>
+          <p className="text-center italic text-muted-foreground">Cargando texto bíblico...</p>
+        </CardContent>
+      </Card>
+    );
   }
 
   // Si no hay selección, mostrar mensaje inicial
   if (!bookId) {
-    return <div className="p-5 bg-gray-50 dark:bg-gray-900 rounded-md"><p>Selecciona un libro, capítulo y versículo para comenzar.</p></div>;
+    return (
+      <Card>
+        <CardContent>
+          <p>Selecciona un libro, capítulo y versículo para comenzar.</p>
+        </CardContent>
+      </Card>
+    );
   }
 
   // Si no hay datos del libro seleccionado
   if (!bibleData[bookId]) {
-    return <div className="p-5 bg-gray-50 dark:bg-gray-900 rounded-md"><p>Cargando datos del libro...</p></div>;
+    return (
+      <Card>
+        <CardContent>
+          <p>Cargando datos del libro...</p>
+        </CardContent>
+      </Card>
+    );
   }
+
   // Si no hay capítulo seleccionado
   if (!chapterNum) {
-    return <div className="p-5 bg-gray-50 dark:bg-gray-900 rounded-md"><p>Selecciona un capítulo para continuar.</p></div>;
+    return (
+      <Card>
+        <CardContent>
+          <p>Selecciona un capítulo para continuar.</p>
+        </CardContent>
+      </Card>
+    );
   }
 
   // Si el capítulo no existe en los datos
   if (!bibleData[bookId][chapterNum]) {
-    return <div className="p-5 bg-gray-50 dark:bg-gray-900 rounded-md"><p>No se encontraron datos para este capítulo.</p></div>;
-  }    // Si solo hay capítulo seleccionado pero no versículo, mostrar mensaje
+    return (
+      <Card>
+        <CardContent>
+          <p>No se encontraron datos para este capítulo.</p>
+        </CardContent>
+      </Card>
+    );
+  }
+
+  // Si solo hay capítulo seleccionado pero no versículo, mostrar mensaje
   if (!verseNum) {
-    return <div className="p-5 bg-gray-50 dark:bg-gray-900 rounded-md">
-      <p>Selecciona un versículo para continuar.</p>
-    </div>;
+    return (
+      <Card>
+        <CardContent>
+          <p>Selecciona un versículo para continuar.</p>
+        </CardContent>
+      </Card>
+    );
   }
 
   // Solo mostrar todo el capítulo cuando específicamente se seleccione "all"
@@ -112,10 +150,14 @@ const ScriptureDisplay = ({
     const versiculos = Object.keys(capitulo).map(Number).sort((a, b) => a - b);
 
     return (
-      <div className="p-5 bg-gray-50 dark:bg-gray-900 rounded-md">
-        <h2 className="text-xl font-bold mb-4">{getLibroNombre(bookId)} {chapterNum}</h2>
-        {versiculos.map(num => renderVersiculo(capitulo[num], num))}
-      </div>
+      <Card>
+        <CardHeader>
+          <CardTitle className="text-xl font-bold">{getLibroNombre(bookId)} {chapterNum}</CardTitle>
+        </CardHeader>
+        <CardContent>
+          {versiculos.map(num => renderVersiculo(capitulo[num], num))}
+        </CardContent>
+      </Card>
     );
   }
 
@@ -125,18 +167,30 @@ const ScriptureDisplay = ({
     const textoVersiculo = versiculo.textoCompleto || "Traducción no disponible.";
 
     return (
-      <div className="p-5 bg-gray-50 dark:bg-gray-900 rounded-md">
-        <h2 className="text-xl font-bold mb-4">{getLibroNombre(bookId)} {chapterNum}:{verseNum}</h2>
-        {renderVersiculo(versiculo, verseNum)}
-        <div className="mt-4 p-3 bg-gray-100 dark:bg-gray-800 rounded-md mb-4">
-          <p>{textoVersiculo}</p>
-        </div>
-      </div>
+      <Card>
+        <CardHeader>
+          <CardTitle className="text-xl font-bold">{getLibroNombre(bookId)} {chapterNum}:{verseNum}</CardTitle>
+        </CardHeader>
+        <CardContent>
+          {renderVersiculo(versiculo, verseNum)}
+          <Card className="mt-4 bg-accent/50">
+            <CardContent className="py-3">
+              <p>{textoVersiculo}</p>
+            </CardContent>
+          </Card>
+        </CardContent>
+      </Card>
     );
   }
 
   // Si el versículo no existe
-  return <div className="p-5 bg-gray-50 dark:bg-gray-900 rounded-md"><p>No se encontró este versículo.</p></div>;
+  return (
+    <Card>
+      <CardContent>
+        <p>No se encontró este versículo.</p>
+      </CardContent>
+    </Card>
+  );
 };
 
 export default ScriptureDisplay;

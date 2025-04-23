@@ -1,6 +1,13 @@
 'use client';
 
 import { LibroType } from '@/types/bible';
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 interface BookSelectorProps {
   books: LibroType[];
@@ -11,19 +18,18 @@ interface BookSelectorProps {
 const BookSelector = ({ books, selectedBook, onSelectBook }: BookSelectorProps) => {
   return (
     <div className="w-full sm:w-1/3">
-      <select
-        className="w-full p-2 border border-gray-300 rounded-md bg-white dark:bg-gray-800 dark:border-gray-700"
-        value={selectedBook}
-        onChange={(e) => onSelectBook(e.target.value)}
-        aria-label="Seleccionar libro"
-      >
-        <option value="">Seleccionar libro</option>
-        {books.map((book) => (
-          <option key={book.id} value={book.id}>
-            {book.nombre}
-          </option>
-        ))}
-      </select>
+      <Select value={selectedBook} onValueChange={onSelectBook}>
+        <SelectTrigger className="w-full">
+          <SelectValue placeholder="Seleccionar libro" />
+        </SelectTrigger>
+        <SelectContent>
+          {books.map((book) => (
+            <SelectItem key={book.id} value={book.id}>
+              {book.nombre}
+            </SelectItem>
+          ))}
+        </SelectContent>
+      </Select>
     </div>
   );
 };

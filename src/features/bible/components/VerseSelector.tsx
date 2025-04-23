@@ -1,6 +1,13 @@
 'use client';
 
 import { VersiculoDataMap } from '@/types/bible';
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 interface VerseSelectorProps {
   versesData: VersiculoDataMap | null;
@@ -9,33 +16,35 @@ interface VerseSelectorProps {
   disabled: boolean;
 }
 
-const VerseSelector = ({ 
-  versesData, 
-  selectedVerse, 
-  onSelectVerse, 
-  disabled 
+const VerseSelector = ({
+  versesData,
+  selectedVerse,
+  onSelectVerse,
+  disabled
 }: VerseSelectorProps) => {
-  const verseNumbers = versesData 
+  const verseNumbers = versesData
     ? Object.keys(versesData).map(Number).sort((a, b) => a - b)
     : [];
 
   return (
     <div className="w-full sm:w-1/3">
-      <select
-        className="w-full p-2 border border-gray-300 rounded-md bg-white dark:bg-gray-800 dark:border-gray-700 disabled:bg-gray-100 dark:disabled:bg-gray-900 disabled:text-gray-400"
-        value={selectedVerse || ''}
-        onChange={(e) => onSelectVerse(e.target.value === 'all' ? 'all' : Number(e.target.value))}
+      <Select
+        value={selectedVerse?.toString() || ""}
+        onValueChange={(value) => onSelectVerse(value === 'all' ? 'all' : Number(value))}
         disabled={disabled}
-        aria-label="Seleccionar versículo"
       >
-        <option value="">Seleccionar versículo</option>
-        <option value="all">Todos los versículos</option>
-        {verseNumbers.map((num) => (
-          <option key={num} value={num}>
-            {num}
-          </option>
-        ))}
-      </select>
+        <SelectTrigger className="w-full">
+          <SelectValue placeholder="Seleccionar versículo" />
+        </SelectTrigger>
+        <SelectContent>
+          <SelectItem value="all">Todos los versículos</SelectItem>
+          {verseNumbers.map((num) => (
+            <SelectItem key={num} value={num.toString()}>
+              {num}
+            </SelectItem>
+          ))}
+        </SelectContent>
+      </Select>
     </div>
   );
 };
